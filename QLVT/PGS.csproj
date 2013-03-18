@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B5E05C3-F061-42F7-B7C9-9775B4889C12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PGS</RootNamespace>
+    <AssemblyName>QLVT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Docking, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Custom ComboBox\ContractListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\DepartmentListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\InputStatusCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\OrderListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\OrderStatusCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\PriorityCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\RequestListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\RequestListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\RequestStatusCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\StoreListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Custom ComboBox\SupplierListCombobox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NStoreLocationList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NStoreLocationList.Designer.cs">
+      <DependentUpon>NStoreLocationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InUseOutputControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InUseOutputControl.Designer.cs">
+      <DependentUpon>NEQ_InUseOutputControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_BrowseData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_BrowseData.Designer.cs">
+      <DependentUpon>EQ_BrowseData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_EquipmentCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_EquipmentCheck.Designer.cs">
+      <DependentUpon>EQ_EquipmentCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_DirectOutputControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_DirectOutputControl.Designer.cs">
+      <DependentUpon>NEQ_DirectOutputControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OutputListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OutputListControl.Designer.cs">
+      <DependentUpon>NEQ_OutputListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InputListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InputListControl.Designer.cs">
+      <DependentUpon>NEQ_InputListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_ContractDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_ContractDetailControl.Designer.cs">
+      <DependentUpon>NEQ_ContractDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_ContractListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_ContractListControl.Designer.cs">
+      <DependentUpon>NEQ_ContractListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OrderListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OrderListControl.Designer.cs">
+      <DependentUpon>NEQ_OrderListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_QuoteListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_QuoteListControl.Designer.cs">
+      <DependentUpon>NEQ_QuoteListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_RequestDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_RequestDetailControl.Designer.cs">
+      <DependentUpon>NEQ_RequestDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_RequestListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_RequestListControl.Designer.cs">
+      <DependentUpon>NEQ_RequestListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NStoreList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NStoreList.Designer.cs">
+      <DependentUpon>NStoreList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_InventoryForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\EQ_InventoryForm.Designer.cs">
+      <DependentUpon>EQ_InventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\CompanyTypeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\CompanyTypeList.designer.cs">
+      <DependentUpon>CompanyTypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\DepartmentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\DepartmentList.Designer.cs">
+      <DependentUpon>DepartmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\EmployeeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\EmployeeList.Designer.cs">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\EQ_CategoryList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\EQ_CategoryList.Designer.cs">
+      <DependentUpon>EQ_CategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\RoleList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\RoleList.Designer.cs">
+      <DependentUpon>RoleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\UnitList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\UnitList.Designer.cs">
+      <DependentUpon>UnitList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Index\UserList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Index\UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MainButtonsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MainButtonsControl.Designer.cs">
+      <DependentUpon>MainButtonsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEquipmentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEquipmentList.Designer.cs">
+      <DependentUpon>NEquipmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NSupplierList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NSupplierList.Designer.cs">
+      <DependentUpon>NSupplierList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_QuoteDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_QuoteDetailControl.Designer.cs">
+      <DependentUpon>NEQ_QuoteDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OrderDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OrderDetailControl.Designer.cs">
+      <DependentUpon>NEQ_OrderDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InputDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_InputDetailControl.Designer.cs">
+      <DependentUpon>NEQ_InputDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OutputDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Equipments\NEQ_OutputDetailControl.Designer.cs">
+      <DependentUpon>NEQ_OutputDetailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_EquipmentReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_EquipmentReport.Designer.cs">
+      <DependentUpon>EQ_EquipmentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_OrderReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_OrderReport.Designer.cs">
+      <DependentUpon>EQ_OrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_QuotationReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_QuotationReport.Designer.cs">
+      <DependentUpon>EQ_QuotationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_RequestReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_RequestReport.Designer.cs">
+      <DependentUpon>EQ_RequestReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_StoreReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\EQ_StoreReport.Designer.cs">
+      <DependentUpon>EQ_StoreReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Report\OrderReportCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\OrderReportCtrl.Designer.cs">
+      <DependentUpon>OrderReportCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RadGridENProvider.cs" />
+    <Compile Include="Controls\RadGridVNProvider.cs" />
+    <Compile Include="Controls\Report\ReportViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Report\ReportViewerForm.Designer.cs">
+      <DependentUpon>ReportViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChooseEquipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChooseEquipmentForm.Designer.cs">
+      <DependentUpon>ChooseEquipmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EQ_MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EQ_MainForm.Designer.cs">
+      <DependentUpon>EQ_MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\ApplicationContext.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CodeGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Helper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\LoadStatic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\StaticInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controls\Custom ComboBox\RequestListBox.resx">
+      <DependentUpon>RequestListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NStoreLocationList.resx">
+      <DependentUpon>NStoreLocationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_InUseOutputControl.resx">
+      <DependentUpon>NEQ_InUseOutputControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\EQ_BrowseData.resx">
+      <DependentUpon>EQ_BrowseData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\EQ_EquipmentCheck.resx">
+      <DependentUpon>EQ_EquipmentCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_DirectOutputControl.resx">
+      <DependentUpon>NEQ_DirectOutputControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_OutputListControl.resx">
+      <DependentUpon>NEQ_OutputListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_InputListControl.resx">
+      <DependentUpon>NEQ_InputListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_ContractDetailControl.resx">
+      <DependentUpon>NEQ_ContractDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_ContractListControl.resx">
+      <DependentUpon>NEQ_ContractListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_OrderListControl.resx">
+      <DependentUpon>NEQ_OrderListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_QuoteListControl.resx">
+      <DependentUpon>NEQ_QuoteListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_RequestDetailControl.resx">
+      <DependentUpon>NEQ_RequestDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_RequestListControl.resx">
+      <DependentUpon>NEQ_RequestListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NStoreList.resx">
+      <DependentUpon>NStoreList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\EQ_InventoryForm.resx">
+      <DependentUpon>EQ_InventoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\CompanyTypeList.resx">
+      <DependentUpon>CompanyTypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\DepartmentList.resx">
+      <DependentUpon>DepartmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\EmployeeList.resx">
+      <DependentUpon>EmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\EQ_CategoryList.resx">
+      <DependentUpon>EQ_CategoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\RoleList.resx">
+      <DependentUpon>RoleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\UnitList.resx">
+      <DependentUpon>UnitList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Index\UserList.resx">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MainButtonsControl.resx">
+      <DependentUpon>MainButtonsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEquipmentList.resx">
+      <DependentUpon>NEquipmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NSupplierList.resx">
+      <DependentUpon>NSupplierList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_QuoteDetailControl.resx">
+      <DependentUpon>NEQ_QuoteDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_OrderDetailControl.resx">
+      <DependentUpon>NEQ_OrderDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_InputDetailControl.resx">
+      <DependentUpon>NEQ_InputDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEQ_OutputDetailControl.resx">
+      <DependentUpon>NEQ_OutputDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\EQ_EquipmentReport.resx">
+      <DependentUpon>EQ_EquipmentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\EQ_OrderReport.resx">
+      <DependentUpon>EQ_OrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\EQ_QuotationReport.resx">
+      <DependentUpon>EQ_QuotationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\EQ_RequestReport.resx">
+      <DependentUpon>EQ_RequestReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\EQ_StoreReport.resx">
+      <DependentUpon>EQ_StoreReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\OrderReportCtrl.resx">
+      <DependentUpon>OrderReportCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Report\ReportViewerForm.resx">
+      <DependentUpon>ReportViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChooseEquipmentForm.resx">
+      <DependentUpon>ChooseEquipmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EQ_MainForm.resx">
+      <DependentUpon>EQ_MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\PGS.Entity.CoType.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Department.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Employee.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Equipment.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.EQ_Categories.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Role.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Store.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Supplier.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.Unit.datasource" />
+    <None Include="Properties\DataSources\PGS.Entity.User.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PGS.Business\PGS.Business.csproj">
+      <Project>{403002FB-EC8D-4D2E-8877-F81D455A1F5E}</Project>
+      <Name>PGS.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PGS.Entity\PGS.Entity.csproj">
+      <Project>{1F78F9B2-35A4-4E34-86A5-05A85A6674E6}</Project>
+      <Name>PGS.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
