@@ -47,4 +47,10 @@ namespace PGS.Utils
         KHAN,
         THUONG_KHAN
     }
+
+    public class Culture
+    {
+        public static string VI_VN = "vi-VN";
+        public static string EN_US = "en-US";
+    }
 }
