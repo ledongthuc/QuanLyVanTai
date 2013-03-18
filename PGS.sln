@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGS.Entity", "PGS.Entity\PGS.Entity.csproj", "{1F78F9B2-35A4-4E34-86A5-05A85A6674E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGS.Business", "PGS.Business\PGS.Business.csproj", "{403002FB-EC8D-4D2E-8877-F81D455A1F5E}"
