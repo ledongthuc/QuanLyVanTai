@@ -117,7 +117,357 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radRibbonBarGroup1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 164</value>
+  </data>
+  <data name="mainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 566</value>
+  </data>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup26.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup27.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarEquipment.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radRibbonBarEquipment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ribbonTab2.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTab2.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTab2.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTab2.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab2.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTab2.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab2.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="btnStore.Text" xml:space="preserve">
+    <value>STORES</value>
+  </data>
+  <data name="radRibbonBarGroup20.Text" xml:space="preserve">
+    <value>STORES</value>
+  </data>
+  <data name="btnLocation.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="radRibbonBarGroup39.Text" xml:space="preserve">
+    <value>LOCATIONS</value>
+  </data>
+  <data name="btnSupplier_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 2</value>
+  </data>
+  <data name="btnSupplier_1.Text" xml:space="preserve">
+    <value>SUPPLIERS</value>
+  </data>
+  <data name="radRibbonBarGroup17.Text" xml:space="preserve">
+    <value>SUPPLIERS</value>
+  </data>
+  <data name="radRibbonBarGroup30.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="btnEquipment.Text" xml:space="preserve">
+    <value>Equipments</value>
+  </data>
+  <data name="radRibbonBarGroup19.Text" xml:space="preserve">
+    <value>EQUIPMENTS</value>
+  </data>
+  <data name="btnUnit_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 2</value>
+  </data>
+  <data name="btnUnit_1.Text" xml:space="preserve">
+    <value>UNITS</value>
+  </data>
+  <data name="radRibbonBarGroup18.Text" xml:space="preserve">
+    <value>UNITS</value>
+  </data>
+  <data name="ribbonTab2.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="ribbonTab1.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTab1.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTab1.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTab1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab1.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTab1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab1.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="btnPhieuYeuCau.Text" xml:space="preserve">
+    <value>Create Request</value>
+  </data>
+  <data name="btnDanhsachyeucau.Text" xml:space="preserve">
+    <value>List of Requests</value>
+  </data>
+  <data name="radRibbonBarGroup2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="radRibbonBarGroup2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPhieuMoiChaoGia.Text" xml:space="preserve">
+    <value>Create Quotation</value>
+  </data>
+  <data name="btnDanhSachMoiChaoGia.Text" xml:space="preserve">
+    <value>List of Quotations</value>
+  </data>
+  <data name="radRibbonBarGroup4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnContract.Text" xml:space="preserve">
+    <value>Create Contract</value>
+  </data>
+  <data name="btnContractList.Text" xml:space="preserve">
+    <value>List of Contracts</value>
+  </data>
+  <data name="radRibbonBarGroup11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOrder.Text" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="btnOrder.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOrderList.Text" xml:space="preserve">
+    <value>List Of Orders</value>
+  </data>
+  <data name="btnOrderList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="radRibbonBarGroup12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup29.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInput.Text" xml:space="preserve">
+    <value>Create Receive Stock</value>
+  </data>
+  <data name="btnInputList.Text" xml:space="preserve">
+    <value>Receive Stock List</value>
+  </data>
+  <data name="radRibbonBarGroup5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOutput.Text" xml:space="preserve">
+    <value>Create Issue Stock</value>
+  </data>
+  <data name="btnOutputList.Text" xml:space="preserve">
+    <value>Issue Stock List</value>
+  </data>
+  <data name="radRibbonBarGroup7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDirectOutput.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="rbbgDirectOuput.Text" xml:space="preserve">
+    <value>Direct Issue</value>
+  </data>
+  <data name="btnInUseOutput.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="rbbgInUseOuput.Text" xml:space="preserve">
+    <value>"In-Use" Issue</value>
+  </data>
+  <data name="ribbonTab1.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ribbonTab9.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTab9.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTab9.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTab9.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab9.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTab9.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab9.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="btnInventory.Text" xml:space="preserve">
+    <value>INVENTORY</value>
+  </data>
+  <data name="radRibbonBarGroup35.Text" xml:space="preserve">
+    <value>INVENTORY</value>
+  </data>
+  <data name="ribbonTab9.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="ribbonTab10.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTab10.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTab10.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTab10.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab10.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTab10.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab10.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="btnEQ_BrowseData.Text" xml:space="preserve">
+    <value>BROWSE DATA</value>
+  </data>
+  <data name="radRibbonBarGroup37.Text" xml:space="preserve">
+    <value> BROWSE DATA</value>
+  </data>
+  <data name="btnEquipCheck.Text" xml:space="preserve">
+    <value>Equipment Check</value>
+  </data>
+  <data name="radRibbonBarGroup38.Text" xml:space="preserve">
+    <value> EQUIPMENT CHECK</value>
+  </data>
+  <data name="ribbonTab10.Text" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="ribbonTab11.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTab11.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTab11.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTab11.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab11.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTab11.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab11.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="btnEquipmentReport.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup36.Text" xml:space="preserve">
+    <value>EQUIPMENT ...</value>
+  </data>
+  <data name="btnEQ_RequestRpt.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup42.Text" xml:space="preserve">
+    <value>REQUESTS ...</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.Text" xml:space="preserve">
+    <value>radButtonElement2</value>
+  </data>
+  <data name="rbbgQuotationRpt.Text" xml:space="preserve">
+    <value>QUOTATION ...</value>
+  </data>
+  <data name="btnEQ_OrderRpt.Text" xml:space="preserve">
+    <value>radButtonElement7</value>
+  </data>
+  <data name="rbbgOrderRpt.Text" xml:space="preserve">
+    <value>ORDER/CONTRACTS ...</value>
+  </data>
+  <data name="btnStoreReport.Text" xml:space="preserve">
+    <value>radButtonElement8</value>
+  </data>
+  <data name="rbbgStoreRpt.Text" xml:space="preserve">
+    <value>STORE ...</value>
+  </data>
+  <data name="ribbonTab11.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="radRibbonBarEquipment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="radRibbonBarEquipment.ExitButton.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="radRibbonBarEquipment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radRibbonBarEquipment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="radRibbonBarEquipment.OptionsButton.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="radRibbonBarEquipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 164</value>
+  </data>
   <data name="radRibbonBarEquipment.StartButtonImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
@@ -148,6 +498,51 @@
         Jz8/evTHI42NX3986NABgtTW1m6iL4y18wSM//EfgN25FJUoL1NGsBXl3XHBu2Grylf+Tubc7eV5Hm1t
         jvecpyqcp+JcT/cPQf+p6R78X13wL5Y11P/4w+VaAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="radRibbonBarEquipment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarEquipment.Name" xml:space="preserve">
+    <value>radRibbonBarEquipment</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarEquipment.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBar, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarEquipment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarEquipment.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radButtonElement3.Text" xml:space="preserve">
+    <value>Phiếu nhập kho</value>
+  </data>
+  <data name="radButtonElement4.Text" xml:space="preserve">
+    <value>Phiếu nhập kho</value>
+  </data>
+  <data name="btnDanhSachHopDong.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnDanhSachHopDong.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 2</value>
+  </data>
+  <data name="btnDanhSachHopDong.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 16</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1008, 730</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2176,5 +2571,386 @@
         QERERCSAiIiISAARERGRACIiIiIBRERERAKIiIiIBBAREREJICIiIhJAREREJICIiIhIABEREZEAIiIi
         IgFEREREAoiIiNiL/x+J2e2xsWAxwQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup1.Name" xml:space="preserve">
+    <value>radRibbonBarGroup1</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup26.Name" xml:space="preserve">
+    <value>radRibbonBarGroup26</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup26.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup27.Name" xml:space="preserve">
+    <value>radRibbonBarGroup27</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup27.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab2.Name" xml:space="preserve">
+    <value>ribbonTab2</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup20.Name" xml:space="preserve">
+    <value>radRibbonBarGroup20</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup20.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnStore.Name" xml:space="preserve">
+    <value>btnStore</value>
+  </data>
+  <data name="&gt;&gt;btnStore.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup39.Name" xml:space="preserve">
+    <value>radRibbonBarGroup39</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup39.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnLocation.Name" xml:space="preserve">
+    <value>btnLocation</value>
+  </data>
+  <data name="&gt;&gt;btnLocation.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup17.Name" xml:space="preserve">
+    <value>radRibbonBarGroup17</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup17.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnSupplier_1.Name" xml:space="preserve">
+    <value>btnSupplier_1</value>
+  </data>
+  <data name="&gt;&gt;btnSupplier_1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup30.Name" xml:space="preserve">
+    <value>radRibbonBarGroup30</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup30.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup19.Name" xml:space="preserve">
+    <value>radRibbonBarGroup19</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup19.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEQCategory.Name" xml:space="preserve">
+    <value>btnEQCategory</value>
+  </data>
+  <data name="&gt;&gt;btnEQCategory.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEquipment.Name" xml:space="preserve">
+    <value>btnEquipment</value>
+  </data>
+  <data name="&gt;&gt;btnEquipment.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup18.Name" xml:space="preserve">
+    <value>radRibbonBarGroup18</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup18.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnUnit_1.Name" xml:space="preserve">
+    <value>btnUnit_1</value>
+  </data>
+  <data name="&gt;&gt;btnUnit_1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab1.Name" xml:space="preserve">
+    <value>ribbonTab1</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup2.Name" xml:space="preserve">
+    <value>radRibbonBarGroup2</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup2.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnPhieuYeuCau.Name" xml:space="preserve">
+    <value>btnPhieuYeuCau</value>
+  </data>
+  <data name="&gt;&gt;btnPhieuYeuCau.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnDanhsachyeucau.Name" xml:space="preserve">
+    <value>btnDanhsachyeucau</value>
+  </data>
+  <data name="&gt;&gt;btnDanhsachyeucau.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup4.Name" xml:space="preserve">
+    <value>radRibbonBarGroup4</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup4.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnPhieuMoiChaoGia.Name" xml:space="preserve">
+    <value>btnPhieuMoiChaoGia</value>
+  </data>
+  <data name="&gt;&gt;btnPhieuMoiChaoGia.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnDanhSachMoiChaoGia.Name" xml:space="preserve">
+    <value>btnDanhSachMoiChaoGia</value>
+  </data>
+  <data name="&gt;&gt;btnDanhSachMoiChaoGia.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup11.Name" xml:space="preserve">
+    <value>radRibbonBarGroup11</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup11.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnContract.Name" xml:space="preserve">
+    <value>btnContract</value>
+  </data>
+  <data name="&gt;&gt;btnContract.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnContractList.Name" xml:space="preserve">
+    <value>btnContractList</value>
+  </data>
+  <data name="&gt;&gt;btnContractList.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup12.Name" xml:space="preserve">
+    <value>radRibbonBarGroup12</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup12.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnOrder.Name" xml:space="preserve">
+    <value>btnOrder</value>
+  </data>
+  <data name="&gt;&gt;btnOrder.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnOrderList.Name" xml:space="preserve">
+    <value>btnOrderList</value>
+  </data>
+  <data name="&gt;&gt;btnOrderList.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup29.Name" xml:space="preserve">
+    <value>radRibbonBarGroup29</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup29.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup5.Name" xml:space="preserve">
+    <value>radRibbonBarGroup5</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup5.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnInput.Name" xml:space="preserve">
+    <value>btnInput</value>
+  </data>
+  <data name="&gt;&gt;btnInput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnInputList.Name" xml:space="preserve">
+    <value>btnInputList</value>
+  </data>
+  <data name="&gt;&gt;btnInputList.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup7.Name" xml:space="preserve">
+    <value>radRibbonBarGroup7</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup7.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnOutput.Name" xml:space="preserve">
+    <value>btnOutput</value>
+  </data>
+  <data name="&gt;&gt;btnOutput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnOutputList.Name" xml:space="preserve">
+    <value>btnOutputList</value>
+  </data>
+  <data name="&gt;&gt;btnOutputList.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rbbgDirectOuput.Name" xml:space="preserve">
+    <value>rbbgDirectOuput</value>
+  </data>
+  <data name="&gt;&gt;rbbgDirectOuput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnDirectOutput.Name" xml:space="preserve">
+    <value>btnDirectOutput</value>
+  </data>
+  <data name="&gt;&gt;btnDirectOutput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rbbgInUseOuput.Name" xml:space="preserve">
+    <value>rbbgInUseOuput</value>
+  </data>
+  <data name="&gt;&gt;rbbgInUseOuput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnInUseOutput.Name" xml:space="preserve">
+    <value>btnInUseOutput</value>
+  </data>
+  <data name="&gt;&gt;btnInUseOutput.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab9.Name" xml:space="preserve">
+    <value>ribbonTab9</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab9.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup35.Name" xml:space="preserve">
+    <value>radRibbonBarGroup35</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup35.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Name" xml:space="preserve">
+    <value>btnInventory</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab10.Name" xml:space="preserve">
+    <value>ribbonTab10</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab10.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup37.Name" xml:space="preserve">
+    <value>radRibbonBarGroup37</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup37.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_BrowseData.Name" xml:space="preserve">
+    <value>btnEQ_BrowseData</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_BrowseData.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup38.Name" xml:space="preserve">
+    <value>radRibbonBarGroup38</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup38.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEquipCheck.Name" xml:space="preserve">
+    <value>btnEquipCheck</value>
+  </data>
+  <data name="&gt;&gt;btnEquipCheck.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab11.Name" xml:space="preserve">
+    <value>ribbonTab11</value>
+  </data>
+  <data name="&gt;&gt;ribbonTab11.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup36.Name" xml:space="preserve">
+    <value>radRibbonBarGroup36</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup36.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEquipmentReport.Name" xml:space="preserve">
+    <value>btnEquipmentReport</value>
+  </data>
+  <data name="&gt;&gt;btnEquipmentReport.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup42.Name" xml:space="preserve">
+    <value>radRibbonBarGroup42</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup42.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_RequestRpt.Name" xml:space="preserve">
+    <value>btnEQ_RequestRpt</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_RequestRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rbbgQuotationRpt.Name" xml:space="preserve">
+    <value>rbbgQuotationRpt</value>
+  </data>
+  <data name="&gt;&gt;rbbgQuotationRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_QuotationRpt.Name" xml:space="preserve">
+    <value>btnEQ_QuotationRpt</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_QuotationRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rbbgOrderRpt.Name" xml:space="preserve">
+    <value>rbbgOrderRpt</value>
+  </data>
+  <data name="&gt;&gt;rbbgOrderRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_OrderRpt.Name" xml:space="preserve">
+    <value>btnEQ_OrderRpt</value>
+  </data>
+  <data name="&gt;&gt;btnEQ_OrderRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rbbgStoreRpt.Name" xml:space="preserve">
+    <value>rbbgStoreRpt</value>
+  </data>
+  <data name="&gt;&gt;rbbgStoreRpt.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnStoreReport.Name" xml:space="preserve">
+    <value>btnStoreReport</value>
+  </data>
+  <data name="&gt;&gt;btnStoreReport.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonElement3.Name" xml:space="preserve">
+    <value>radButtonElement3</value>
+  </data>
+  <data name="&gt;&gt;radButtonElement3.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radButtonElement4.Name" xml:space="preserve">
+    <value>radButtonElement4</value>
+  </data>
+  <data name="&gt;&gt;radButtonElement4.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;btnDanhSachHopDong.Name" xml:space="preserve">
+    <value>btnDanhSachHopDong</value>
+  </data>
+  <data name="&gt;&gt;btnDanhSachHopDong.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EQ_MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

@@ -18,6 +18,6 @@ namespace PGS.Global
         }
 
         public static string WorkingDirectory = "";
-    
+        public static string CurrentCulture = "";
     }
 }

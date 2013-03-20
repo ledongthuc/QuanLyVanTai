@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormLanguageSwitch", "FormLanguageSwitch\FormLanguageSwitch.csproj", "{787B600C-9A56-41C7-A3C8-9553630FE3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSDIApp", "TestSDIApp\TestSDIApp.csproj", "{EA63D84A-6CF2-4E1C-9BC0-D604287AA6D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMDIApp", "TestMDIApp\TestMDIApp.csproj", "{5B2EE2D5-6768-4905-B32B-C6D3F465F52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{787B600C-9A56-41C7-A3C8-9553630FE3C1}.Debug.ActiveCfg = Debug|.NET
+		{787B600C-9A56-41C7-A3C8-9553630FE3C1}.Debug.Build.0 = Debug|.NET
+		{787B600C-9A56-41C7-A3C8-9553630FE3C1}.Release.ActiveCfg = Release|.NET
+		{787B600C-9A56-41C7-A3C8-9553630FE3C1}.Release.Build.0 = Release|.NET
+		{EA63D84A-6CF2-4E1C-9BC0-D604287AA6D2}.Debug.ActiveCfg = Debug|.NET
+		{EA63D84A-6CF2-4E1C-9BC0-D604287AA6D2}.Debug.Build.0 = Debug|.NET
+		{EA63D84A-6CF2-4E1C-9BC0-D604287AA6D2}.Release.ActiveCfg = Release|.NET
+		{EA63D84A-6CF2-4E1C-9BC0-D604287AA6D2}.Release.Build.0 = Release|.NET
+		{5B2EE2D5-6768-4905-B32B-C6D3F465F52D}.Debug.ActiveCfg = Debug|.NET
+		{5B2EE2D5-6768-4905-B32B-C6D3F465F52D}.Debug.Build.0 = Debug|.NET
+		{5B2EE2D5-6768-4905-B32B-C6D3F465F52D}.Release.ActiveCfg = Release|.NET
+		{5B2EE2D5-6768-4905-B32B-C6D3F465F52D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -28,49 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.mainButtonsControl = new PGS.Controls.MainButtonsControl();
             this.loginControl = new PGS.Controls.LoginControl();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.languageControl1 = new PGS.Controls.LanguageControl();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::PGS.Properties.Resources.PTSC_PGS;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // mainButtonsControl
             // 
             this.mainButtonsControl.BackColor = System.Drawing.Color.Transparent;
             this.mainButtonsControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mainButtonsControl.Location = new System.Drawing.Point(-2, 3);
+            resources.ApplyResources(this.mainButtonsControl, "mainButtonsControl");
             this.mainButtonsControl.Name = "mainButtonsControl";
-            this.mainButtonsControl.Size = new System.Drawing.Size(498, 141);
-            this.mainButtonsControl.TabIndex = 1;
             this.mainButtonsControl.MainButtonClickedHandler += new PGS.Controls.MainButtonsControl.MainButtonClicked(this.mainButtonsControl_MainButtonClickedHandler);
             // 
             // loginControl
             // 
             this.loginControl.BackColor = System.Drawing.Color.LemonChiffon;
             this.loginControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.loginControl.Location = new System.Drawing.Point(97, 91);
+            resources.ApplyResources(this.loginControl, "loginControl");
             this.loginControl.Name = "loginControl";
-            this.loginControl.Size = new System.Drawing.Size(300, 140);
-            this.loginControl.TabIndex = 0;
             this.loginControl.LoginStatusChangedHandler += new PGS.Controls.LoginControl.LoginStatusChanged(this.loginControl_LoginStatusChangedHandler);
             // 
-            // panel1
+            // languageControl1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::PGS.Properties.Resources.PTSC_PGS;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 272);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(494, 50);
-            this.panel1.TabIndex = 2;
+            resources.ApplyResources(this.languageControl1, "languageControl1");
+            this.languageControl1.Name = "languageControl1";
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PGS.Properties.Resources.ROV;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(494, 322);
+            this.Controls.Add(this.languageControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.loginControl);
             this.Controls.Add(this.mainButtonsControl);
@@ -78,8 +76,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LoginForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EQUIPMENT/TOOLS/CONSUMABLES MANAGEMENT SOFTWARE";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
 
@@ -90,5 +86,6 @@
         private Controls.MainButtonsControl mainButtonsControl;
         private Controls.LoginControl loginControl;
         private System.Windows.Forms.Panel panel1;
+        private Controls.LanguageControl languageControl1;
     }
 }

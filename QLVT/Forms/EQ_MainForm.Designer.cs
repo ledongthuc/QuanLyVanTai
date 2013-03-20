@@ -94,87 +94,71 @@
             // 
             // radRibbonBarGroup1
             // 
-            this.radRibbonBarGroup1.Margin = new System.Windows.Forms.Padding(0);
+            resources.ApplyResources(this.radRibbonBarGroup1, "radRibbonBarGroup1");
             this.radRibbonBarGroup1.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup1.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup1.Name = "radRibbonBarGroup1";
-            this.radRibbonBarGroup1.Text = "";
             // 
             // mainPanel
             // 
-            this.mainPanel.AutoScroll = true;
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(0, 164);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1008, 566);
-            this.mainPanel.TabIndex = 2;
             // 
             // radRibbonBarGroup26
             // 
             this.radRibbonBarGroup26.AutoSize = false;
             this.radRibbonBarGroup26.Bounds = new System.Drawing.Rectangle(0, 0, 10, 100);
-            this.radRibbonBarGroup26.Margin = new System.Windows.Forms.Padding(0);
+            resources.ApplyResources(this.radRibbonBarGroup26, "radRibbonBarGroup26");
             this.radRibbonBarGroup26.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup26.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup26.Name = "radRibbonBarGroup26";
-            this.radRibbonBarGroup26.Text = "";
             // 
             // radRibbonBarGroup27
             // 
             this.radRibbonBarGroup27.AutoSize = false;
             this.radRibbonBarGroup27.Bounds = new System.Drawing.Rectangle(0, 0, 10, 100);
-            this.radRibbonBarGroup27.Margin = new System.Windows.Forms.Padding(0);
+            resources.ApplyResources(this.radRibbonBarGroup27, "radRibbonBarGroup27");
             this.radRibbonBarGroup27.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup27.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup27.Name = "radRibbonBarGroup27";
-            this.radRibbonBarGroup27.Text = "";
             // 
             // radRibbonBarEquipment
             // 
-            this.radRibbonBarEquipment.AutoScroll = true;
-            this.radRibbonBarEquipment.AutoSize = true;
+            resources.ApplyResources(this.radRibbonBarEquipment, "radRibbonBarEquipment");
             this.radRibbonBarEquipment.CommandTabs.AddRange(new Telerik.WinControls.RadItem[] {
             this.ribbonTab2,
             this.ribbonTab1,
             this.ribbonTab9,
             this.ribbonTab10,
             this.ribbonTab11});
-            this.radRibbonBarEquipment.Dock = System.Windows.Forms.DockStyle.Top;
             this.radRibbonBarEquipment.EnableKeyMap = true;
             this.radRibbonBarEquipment.EnableTabScrollingOnMouseWheel = true;
             // 
             // 
             // 
-            this.radRibbonBarEquipment.ExitButton.Text = "Exit";
-            this.radRibbonBarEquipment.Location = new System.Drawing.Point(0, 0);
-            this.radRibbonBarEquipment.Margin = new System.Windows.Forms.Padding(4);
+            this.radRibbonBarEquipment.ExitButton.Text = resources.GetString("radRibbonBarEquipment.ExitButton.Text");
             this.radRibbonBarEquipment.Name = "radRibbonBarEquipment";
             // 
             // 
             // 
-            this.radRibbonBarEquipment.OptionsButton.Text = "Options";
+            this.radRibbonBarEquipment.OptionsButton.Text = resources.GetString("radRibbonBarEquipment.OptionsButton.Text");
             // 
             // 
             // 
             this.radRibbonBarEquipment.RootElement.AutoSize = true;
             this.radRibbonBarEquipment.ShowHelpButton = true;
-            this.radRibbonBarEquipment.Size = new System.Drawing.Size(1008, 164);
-            this.radRibbonBarEquipment.StartButtonImage = ((System.Drawing.Image)(resources.GetObject("radRibbonBarEquipment.StartButtonImage")));
-            this.radRibbonBarEquipment.TabIndex = 0;
             // 
             // ribbonTab2
             // 
-            this.ribbonTab2.Alignment = System.Drawing.ContentAlignment.BottomLeft;
+            resources.ApplyResources(this.ribbonTab2, "ribbonTab2");
             // 
             // ribbonTab2.ContentPanel
             // 
             this.ribbonTab2.ContentPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ribbonTab2.ContentPanel.CausesValidation = true;
-            this.ribbonTab2.ContentPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.ribbonTab2.ContentPanel, "ribbonTab2.ContentPanel");
             this.ribbonTab2.ContentPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ribbonTab2.ContentPanel.Location = new System.Drawing.Point(0, 0);
-            this.ribbonTab2.ContentPanel.Size = new System.Drawing.Size(200, 100);
+            this.ribbonTab2.IsSelected = true;
             this.ribbonTab2.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup20,
             this.radRibbonBarGroup39,
@@ -184,7 +168,6 @@
             this.radRibbonBarGroup18});
             this.ribbonTab2.Name = "ribbonTab2";
             this.ribbonTab2.StretchHorizontally = false;
-            this.ribbonTab2.Text = "Index";
             // 
             // radRibbonBarGroup20
             // 
@@ -193,7 +176,7 @@
             this.radRibbonBarGroup20.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnStore});
             this.radRibbonBarGroup20.Name = "radRibbonBarGroup20";
-            this.radRibbonBarGroup20.Text = "STORES";
+            resources.ApplyResources(this.radRibbonBarGroup20, "radRibbonBarGroup20");
             // 
             // btnStore
             // 
@@ -204,7 +187,7 @@
             this.btnStore.Image = global::PGS.Properties.Resources.store;
             this.btnStore.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnStore.Name = "btnStore";
-            this.btnStore.Text = "STORES";
+            resources.ApplyResources(this.btnStore, "btnStore");
             this.btnStore.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnStore.Click += new System.EventHandler(this.btnStore_Click);
             // 
@@ -215,7 +198,7 @@
             this.radRibbonBarGroup39.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnLocation});
             this.radRibbonBarGroup39.Name = "radRibbonBarGroup39";
-            this.radRibbonBarGroup39.Text = "LOCATIONS";
+            resources.ApplyResources(this.radRibbonBarGroup39, "radRibbonBarGroup39");
             // 
             // btnLocation
             // 
@@ -226,7 +209,7 @@
             this.btnLocation.Image = global::PGS.Properties.Resources.ai_file;
             this.btnLocation.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLocation.Name = "btnLocation";
-            this.btnLocation.Text = "radButtonElement1";
+            resources.ApplyResources(this.btnLocation, "btnLocation");
             this.btnLocation.Click += new System.EventHandler(this.btnLocation_Click);
             // 
             // radRibbonBarGroup17
@@ -236,7 +219,7 @@
             this.radRibbonBarGroup17.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnSupplier_1});
             this.radRibbonBarGroup17.Name = "radRibbonBarGroup17";
-            this.radRibbonBarGroup17.Text = "SUPPLIERS";
+            resources.ApplyResources(this.radRibbonBarGroup17, "radRibbonBarGroup17");
             // 
             // btnSupplier_1
             // 
@@ -248,8 +231,7 @@
             this.btnSupplier_1.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSupplier_1.MaxSize = new System.Drawing.Size(0, 18);
             this.btnSupplier_1.Name = "btnSupplier_1";
-            this.btnSupplier_1.Padding = new System.Windows.Forms.Padding(2, 1, 2, 2);
-            this.btnSupplier_1.Text = "SUPPLIERS";
+            resources.ApplyResources(this.btnSupplier_1, "btnSupplier_1");
             this.btnSupplier_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnSupplier_1.ZIndex = 1;
             this.btnSupplier_1.Click += new System.EventHandler(this.btnSupplier_1_Click);
@@ -259,7 +241,7 @@
             this.radRibbonBarGroup30.AutoSize = false;
             this.radRibbonBarGroup30.Bounds = new System.Drawing.Rectangle(0, 0, 10, 100);
             this.radRibbonBarGroup30.Name = "radRibbonBarGroup30";
-            this.radRibbonBarGroup30.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup30, "radRibbonBarGroup30");
             // 
             // radRibbonBarGroup19
             // 
@@ -269,7 +251,7 @@
             this.btnEQCategory,
             this.btnEquipment});
             this.radRibbonBarGroup19.Name = "radRibbonBarGroup19";
-            this.radRibbonBarGroup19.Text = "EQUIPMENTS";
+            resources.ApplyResources(this.radRibbonBarGroup19, "radRibbonBarGroup19");
             // 
             // btnEQCategory
             // 
@@ -279,7 +261,7 @@
             this.btnEQCategory.Image = global::PGS.Properties.Resources.chung_loai_vat_tu;
             this.btnEQCategory.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEQCategory.Name = "btnEQCategory";
-            this.btnEQCategory.Text = "Category";
+            resources.ApplyResources(this.btnEQCategory, "btnEQCategory");
             this.btnEQCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnEQCategory.Click += new System.EventHandler(this.btnEQCategory_Click);
             // 
@@ -291,7 +273,7 @@
             this.btnEquipment.Image = global::PGS.Properties.Resources.vat_tu;
             this.btnEquipment.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEquipment.Name = "btnEquipment";
-            this.btnEquipment.Text = "Equipments";
+            resources.ApplyResources(this.btnEquipment, "btnEquipment");
             this.btnEquipment.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnEquipment.Click += new System.EventHandler(this.btnEquipment_Click);
             // 
@@ -302,7 +284,7 @@
             this.radRibbonBarGroup18.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnUnit_1});
             this.radRibbonBarGroup18.Name = "radRibbonBarGroup18";
-            this.radRibbonBarGroup18.Text = "UNITS";
+            resources.ApplyResources(this.radRibbonBarGroup18, "radRibbonBarGroup18");
             // 
             // btnUnit_1
             // 
@@ -314,24 +296,21 @@
             this.btnUnit_1.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnUnit_1.MaxSize = new System.Drawing.Size(0, 18);
             this.btnUnit_1.Name = "btnUnit_1";
-            this.btnUnit_1.Padding = new System.Windows.Forms.Padding(2, 1, 2, 2);
-            this.btnUnit_1.Text = "UNITS";
+            resources.ApplyResources(this.btnUnit_1, "btnUnit_1");
             this.btnUnit_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnUnit_1.ZIndex = 1;
             this.btnUnit_1.Click += new System.EventHandler(this.btnUnit_1_Click);
             // 
             // ribbonTab1
             // 
-            this.ribbonTab1.Alignment = System.Drawing.ContentAlignment.BottomLeft;
+            resources.ApplyResources(this.ribbonTab1, "ribbonTab1");
             // 
             // ribbonTab1.ContentPanel
             // 
             this.ribbonTab1.ContentPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ribbonTab1.ContentPanel.CausesValidation = true;
-            this.ribbonTab1.ContentPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.ribbonTab1.ContentPanel, "ribbonTab1.ContentPanel");
             this.ribbonTab1.ContentPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ribbonTab1.ContentPanel.Location = new System.Drawing.Point(0, 0);
-            this.ribbonTab1.ContentPanel.Size = new System.Drawing.Size(200, 100);
             this.ribbonTab1.FitToSizeMode = Telerik.WinControls.RadFitToSizeMode.FitToParentBounds;
             this.ribbonTab1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup2,
@@ -345,7 +324,6 @@
             this.rbbgInUseOuput});
             this.ribbonTab1.Name = "ribbonTab1";
             this.ribbonTab1.StretchHorizontally = false;
-            this.ribbonTab1.Text = "Process";
             // 
             // radRibbonBarGroup2
             // 
@@ -353,11 +331,9 @@
             this.radRibbonBarGroup2.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnPhieuYeuCau,
             this.btnDanhsachyeucau});
-            this.radRibbonBarGroup2.Margin = new System.Windows.Forms.Padding(3);
+            resources.ApplyResources(this.radRibbonBarGroup2, "radRibbonBarGroup2");
             this.radRibbonBarGroup2.Name = "radRibbonBarGroup2";
             this.radRibbonBarGroup2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup2.Padding = new System.Windows.Forms.Padding(0);
-            this.radRibbonBarGroup2.Text = "";
             // 
             // btnPhieuYeuCau
             // 
@@ -366,7 +342,7 @@
             this.btnPhieuYeuCau.Class = "RibbonBarButtonElement";
             this.btnPhieuYeuCau.Image = global::PGS.Properties.Resources.phieu_yeu_cau_32;
             this.btnPhieuYeuCau.Name = "btnPhieuYeuCau";
-            this.btnPhieuYeuCau.Text = "Create Request";
+            resources.ApplyResources(this.btnPhieuYeuCau, "btnPhieuYeuCau");
             this.btnPhieuYeuCau.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhieuYeuCau.Click += new System.EventHandler(this.btnPhieuyeucau_Click);
             // 
@@ -377,7 +353,7 @@
             this.btnDanhsachyeucau.Class = "RibbonBarButtonElement";
             this.btnDanhsachyeucau.Image = global::PGS.Properties.Resources.danh_muc_phieu_yeu_cau_32;
             this.btnDanhsachyeucau.Name = "btnDanhsachyeucau";
-            this.btnDanhsachyeucau.Text = "List of Requests";
+            resources.ApplyResources(this.btnDanhsachyeucau, "btnDanhsachyeucau");
             this.btnDanhsachyeucau.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDanhsachyeucau.Click += new System.EventHandler(this.btnDanhsachyeucau_Click);
             // 
@@ -389,7 +365,7 @@
             this.btnDanhSachMoiChaoGia});
             this.radRibbonBarGroup4.Name = "radRibbonBarGroup4";
             this.radRibbonBarGroup4.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup4.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup4, "radRibbonBarGroup4");
             // 
             // btnPhieuMoiChaoGia
             // 
@@ -398,7 +374,7 @@
             this.btnPhieuMoiChaoGia.Class = "RibbonBarButtonElement";
             this.btnPhieuMoiChaoGia.Image = global::PGS.Properties.Resources.bang_bao_gia__32;
             this.btnPhieuMoiChaoGia.Name = "btnPhieuMoiChaoGia";
-            this.btnPhieuMoiChaoGia.Text = "Create Quotation";
+            resources.ApplyResources(this.btnPhieuMoiChaoGia, "btnPhieuMoiChaoGia");
             this.btnPhieuMoiChaoGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhieuMoiChaoGia.Click += new System.EventHandler(this.btnPhieuMoiChaoGia_Click);
             // 
@@ -409,7 +385,7 @@
             this.btnDanhSachMoiChaoGia.Class = "RibbonBarButtonElement";
             this.btnDanhSachMoiChaoGia.Image = global::PGS.Properties.Resources.danh_muc_phieu_yeu_cau_32;
             this.btnDanhSachMoiChaoGia.Name = "btnDanhSachMoiChaoGia";
-            this.btnDanhSachMoiChaoGia.Text = "List of Quotations";
+            resources.ApplyResources(this.btnDanhSachMoiChaoGia, "btnDanhSachMoiChaoGia");
             this.btnDanhSachMoiChaoGia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDanhSachMoiChaoGia.Click += new System.EventHandler(this.btnDanhSachMoiChaoGia_Click);
             // 
@@ -422,7 +398,7 @@
             this.btnContractList});
             this.radRibbonBarGroup11.Name = "radRibbonBarGroup11";
             this.radRibbonBarGroup11.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup11.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup11, "radRibbonBarGroup11");
             // 
             // btnContract
             // 
@@ -431,7 +407,7 @@
             this.btnContract.Class = "RibbonBarButtonElement";
             this.btnContract.Image = global::PGS.Properties.Resources.hop_dong_32;
             this.btnContract.Name = "btnContract";
-            this.btnContract.Text = "Create Contract";
+            resources.ApplyResources(this.btnContract, "btnContract");
             this.btnContract.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnContract.Click += new System.EventHandler(this.btnHopDong_Click);
             // 
@@ -442,7 +418,7 @@
             this.btnContractList.Class = "RibbonBarButtonElement";
             this.btnContractList.Image = global::PGS.Properties.Resources.danh_muc_hop_dong_32;
             this.btnContractList.Name = "btnContractList";
-            this.btnContractList.Text = "List of Contracts";
+            resources.ApplyResources(this.btnContractList, "btnContractList");
             this.btnContractList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnContractList.Click += new System.EventHandler(this.btnDanhSachHopDong_Click);
             // 
@@ -455,7 +431,7 @@
             this.btnOrderList});
             this.radRibbonBarGroup12.Name = "radRibbonBarGroup12";
             this.radRibbonBarGroup12.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup12.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup12, "radRibbonBarGroup12");
             // 
             // btnOrder
             // 
@@ -465,8 +441,7 @@
             this.btnOrder.Image = global::PGS.Properties.Resources.don_dat_hang_32;
             this.btnOrder.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Text = "Create Order";
-            this.btnOrder.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            resources.ApplyResources(this.btnOrder, "btnOrder");
             this.btnOrder.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
@@ -478,8 +453,7 @@
             this.btnOrderList.Image = global::PGS.Properties.Resources.danh_muc_don_dat_hang_32;
             this.btnOrderList.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnOrderList.Name = "btnOrderList";
-            this.btnOrderList.Text = "List Of Orders";
-            this.btnOrderList.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            resources.ApplyResources(this.btnOrderList, "btnOrderList");
             this.btnOrderList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOrderList.Click += new System.EventHandler(this.btnDanhSachOrder_Click);
             // 
@@ -488,7 +462,7 @@
             this.radRibbonBarGroup29.AutoSize = false;
             this.radRibbonBarGroup29.Bounds = new System.Drawing.Rectangle(0, 0, 10, 100);
             this.radRibbonBarGroup29.Name = "radRibbonBarGroup29";
-            this.radRibbonBarGroup29.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup29, "radRibbonBarGroup29");
             // 
             // radRibbonBarGroup5
             // 
@@ -499,7 +473,7 @@
             this.btnInputList});
             this.radRibbonBarGroup5.Name = "radRibbonBarGroup5";
             this.radRibbonBarGroup5.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup5.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup5, "radRibbonBarGroup5");
             // 
             // btnInput
             // 
@@ -508,7 +482,7 @@
             this.btnInput.Class = "RibbonBarButtonElement";
             this.btnInput.Image = global::PGS.Properties.Resources.phieu_nhap_kho_32;
             this.btnInput.Name = "btnInput";
-            this.btnInput.Text = "Create Receive Stock";
+            resources.ApplyResources(this.btnInput, "btnInput");
             this.btnInput.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
@@ -519,7 +493,7 @@
             this.btnInputList.Class = "RibbonBarButtonElement";
             this.btnInputList.Image = global::PGS.Properties.Resources.danh_muc_phieu_nhap_kho_32;
             this.btnInputList.Name = "btnInputList";
-            this.btnInputList.Text = "Receive Stock List";
+            resources.ApplyResources(this.btnInputList, "btnInputList");
             this.btnInputList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInputList.Click += new System.EventHandler(this.btnInputList_Click);
             // 
@@ -532,7 +506,7 @@
             this.btnOutputList});
             this.radRibbonBarGroup7.Name = "radRibbonBarGroup7";
             this.radRibbonBarGroup7.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.radRibbonBarGroup7.Text = "";
+            resources.ApplyResources(this.radRibbonBarGroup7, "radRibbonBarGroup7");
             // 
             // btnOutput
             // 
@@ -541,7 +515,7 @@
             this.btnOutput.Class = "RibbonBarButtonElement";
             this.btnOutput.Image = global::PGS.Properties.Resources.phieu_xuat_kho_32;
             this.btnOutput.Name = "btnOutput";
-            this.btnOutput.Text = "Create Issue Stock";
+            resources.ApplyResources(this.btnOutput, "btnOutput");
             this.btnOutput.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOutput.Click += new System.EventHandler(this.btnOutput_Click);
             // 
@@ -552,7 +526,7 @@
             this.btnOutputList.Class = "RibbonBarButtonElement";
             this.btnOutputList.Image = global::PGS.Properties.Resources.danh_muc_phieu_xuat_kho_32;
             this.btnOutputList.Name = "btnOutputList";
-            this.btnOutputList.Text = "Issue Stock List";
+            resources.ApplyResources(this.btnOutputList, "btnOutputList");
             this.btnOutputList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOutputList.Click += new System.EventHandler(this.btnOutputList_Click);
             // 
@@ -561,7 +535,7 @@
             this.rbbgDirectOuput.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnDirectOutput});
             this.rbbgDirectOuput.Name = "rbbgDirectOuput";
-            this.rbbgDirectOuput.Text = "Direct Issue";
+            resources.ApplyResources(this.rbbgDirectOuput, "rbbgDirectOuput");
             this.rbbgDirectOuput.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             // 
             // btnDirectOutput
@@ -573,7 +547,7 @@
             this.btnDirectOutput.Image = global::PGS.Properties.Resources.blue_arrow_up;
             this.btnDirectOutput.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDirectOutput.Name = "btnDirectOutput";
-            this.btnDirectOutput.Text = "radButtonElement1";
+            resources.ApplyResources(this.btnDirectOutput, "btnDirectOutput");
             this.btnDirectOutput.Click += new System.EventHandler(this.btnDirectOutput_Click);
             // 
             // rbbgInUseOuput
@@ -581,7 +555,7 @@
             this.rbbgInUseOuput.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnInUseOutput});
             this.rbbgInUseOuput.Name = "rbbgInUseOuput";
-            this.rbbgInUseOuput.Text = "\"In-Use\" Issue";
+            resources.ApplyResources(this.rbbgInUseOuput, "rbbgInUseOuput");
             this.rbbgInUseOuput.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             // 
             // btnInUseOutput
@@ -593,33 +567,30 @@
             this.btnInUseOutput.Image = global::PGS.Properties.Resources.mau_bieu_bao_cao_6;
             this.btnInUseOutput.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnInUseOutput.Name = "btnInUseOutput";
-            this.btnInUseOutput.Text = "radButtonElement1";
+            resources.ApplyResources(this.btnInUseOutput, "btnInUseOutput");
             this.btnInUseOutput.Click += new System.EventHandler(this.btnInUseOutput_Click);
             // 
             // ribbonTab9
             // 
-            this.ribbonTab9.Alignment = System.Drawing.ContentAlignment.BottomLeft;
+            resources.ApplyResources(this.ribbonTab9, "ribbonTab9");
             // 
             // ribbonTab9.ContentPanel
             // 
             this.ribbonTab9.ContentPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ribbonTab9.ContentPanel.CausesValidation = true;
-            this.ribbonTab9.ContentPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.ribbonTab9.ContentPanel, "ribbonTab9.ContentPanel");
             this.ribbonTab9.ContentPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ribbonTab9.ContentPanel.Location = new System.Drawing.Point(0, 0);
-            this.ribbonTab9.ContentPanel.Size = new System.Drawing.Size(200, 100);
             this.ribbonTab9.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup35});
             this.ribbonTab9.Name = "ribbonTab9";
             this.ribbonTab9.StretchHorizontally = false;
-            this.ribbonTab9.Text = "Inventory";
             // 
             // radRibbonBarGroup35
             // 
             this.radRibbonBarGroup35.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnInventory});
             this.radRibbonBarGroup35.Name = "radRibbonBarGroup35";
-            this.radRibbonBarGroup35.Text = "INVENTORY";
+            resources.ApplyResources(this.radRibbonBarGroup35, "radRibbonBarGroup35");
             // 
             // btnInventory
             // 
@@ -630,35 +601,32 @@
             this.btnInventory.Image = global::PGS.Properties.Resources.lich_cong_tac;
             this.btnInventory.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnInventory.Name = "btnInventory";
-            this.btnInventory.Text = "INVENTORY";
+            resources.ApplyResources(this.btnInventory, "btnInventory");
             this.btnInventory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnInventory.Click += new System.EventHandler(this.btnInventory_Click);
             // 
             // ribbonTab10
             // 
-            this.ribbonTab10.Alignment = System.Drawing.ContentAlignment.BottomLeft;
+            resources.ApplyResources(this.ribbonTab10, "ribbonTab10");
             // 
             // ribbonTab10.ContentPanel
             // 
             this.ribbonTab10.ContentPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ribbonTab10.ContentPanel.CausesValidation = true;
-            this.ribbonTab10.ContentPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.ribbonTab10.ContentPanel, "ribbonTab10.ContentPanel");
             this.ribbonTab10.ContentPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ribbonTab10.ContentPanel.Location = new System.Drawing.Point(0, 0);
-            this.ribbonTab10.ContentPanel.Size = new System.Drawing.Size(200, 100);
             this.ribbonTab10.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup37,
             this.radRibbonBarGroup38});
             this.ribbonTab10.Name = "ribbonTab10";
             this.ribbonTab10.StretchHorizontally = false;
-            this.ribbonTab10.Text = "Support";
             // 
             // radRibbonBarGroup37
             // 
             this.radRibbonBarGroup37.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEQ_BrowseData});
             this.radRibbonBarGroup37.Name = "radRibbonBarGroup37";
-            this.radRibbonBarGroup37.Text = " BROWSE DATA";
+            resources.ApplyResources(this.radRibbonBarGroup37, "radRibbonBarGroup37");
             // 
             // btnEQ_BrowseData
             // 
@@ -669,7 +637,7 @@
             this.btnEQ_BrowseData.Image = global::PGS.Properties.Resources.add_process;
             this.btnEQ_BrowseData.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEQ_BrowseData.Name = "btnEQ_BrowseData";
-            this.btnEQ_BrowseData.Text = "BROWSE DATA";
+            resources.ApplyResources(this.btnEQ_BrowseData, "btnEQ_BrowseData");
             this.btnEQ_BrowseData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEQ_BrowseData.Click += new System.EventHandler(this.btnEQ_BrowseData_Click);
             // 
@@ -678,7 +646,7 @@
             this.radRibbonBarGroup38.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEquipCheck});
             this.radRibbonBarGroup38.Name = "radRibbonBarGroup38";
-            this.radRibbonBarGroup38.Text = " EQUIPMENT CHECK";
+            resources.ApplyResources(this.radRibbonBarGroup38, "radRibbonBarGroup38");
             // 
             // btnEquipCheck
             // 
@@ -689,23 +657,20 @@
             this.btnEquipCheck.Image = global::PGS.Properties.Resources.ai_file;
             this.btnEquipCheck.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEquipCheck.Name = "btnEquipCheck";
-            this.btnEquipCheck.Text = "Equipment Check";
+            resources.ApplyResources(this.btnEquipCheck, "btnEquipCheck");
             this.btnEquipCheck.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEquipCheck.Click += new System.EventHandler(this.btnEquipCheck_Click);
             // 
             // ribbonTab11
             // 
-            this.ribbonTab11.Alignment = System.Drawing.ContentAlignment.BottomLeft;
+            resources.ApplyResources(this.ribbonTab11, "ribbonTab11");
             // 
             // ribbonTab11.ContentPanel
             // 
             this.ribbonTab11.ContentPanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ribbonTab11.ContentPanel.CausesValidation = true;
-            this.ribbonTab11.ContentPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.ribbonTab11.ContentPanel, "ribbonTab11.ContentPanel");
             this.ribbonTab11.ContentPanel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ribbonTab11.ContentPanel.Location = new System.Drawing.Point(0, 0);
-            this.ribbonTab11.ContentPanel.Size = new System.Drawing.Size(200, 100);
-            this.ribbonTab11.IsSelected = true;
             this.ribbonTab11.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.radRibbonBarGroup36,
             this.radRibbonBarGroup42,
@@ -714,14 +679,13 @@
             this.rbbgStoreRpt});
             this.ribbonTab11.Name = "ribbonTab11";
             this.ribbonTab11.StretchHorizontally = false;
-            this.ribbonTab11.Text = "Report";
             // 
             // radRibbonBarGroup36
             // 
             this.radRibbonBarGroup36.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEquipmentReport});
             this.radRibbonBarGroup36.Name = "radRibbonBarGroup36";
-            this.radRibbonBarGroup36.Text = "EQUIPMENT ...";
+            resources.ApplyResources(this.radRibbonBarGroup36, "radRibbonBarGroup36");
             // 
             // btnEquipmentReport
             // 
@@ -732,7 +696,7 @@
             this.btnEquipmentReport.Image = global::PGS.Properties.Resources.mau_bieu_bao_cao_3;
             this.btnEquipmentReport.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEquipmentReport.Name = "btnEquipmentReport";
-            this.btnEquipmentReport.Text = "";
+            resources.ApplyResources(this.btnEquipmentReport, "btnEquipmentReport");
             this.btnEquipmentReport.Click += new System.EventHandler(this.btnEquipmentReport_Click);
             // 
             // radRibbonBarGroup42
@@ -740,7 +704,7 @@
             this.radRibbonBarGroup42.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEQ_RequestRpt});
             this.radRibbonBarGroup42.Name = "radRibbonBarGroup42";
-            this.radRibbonBarGroup42.Text = "REQUESTS ...";
+            resources.ApplyResources(this.radRibbonBarGroup42, "radRibbonBarGroup42");
             // 
             // btnEQ_RequestRpt
             // 
@@ -751,7 +715,7 @@
             this.btnEQ_RequestRpt.Image = global::PGS.Properties.Resources.mau_bieu_bao_cao_5;
             this.btnEQ_RequestRpt.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEQ_RequestRpt.Name = "btnEQ_RequestRpt";
-            this.btnEQ_RequestRpt.Text = "";
+            resources.ApplyResources(this.btnEQ_RequestRpt, "btnEQ_RequestRpt");
             this.btnEQ_RequestRpt.Click += new System.EventHandler(this.btnEQ_RequestRpt_Click);
             // 
             // rbbgQuotationRpt
@@ -759,7 +723,7 @@
             this.rbbgQuotationRpt.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEQ_QuotationRpt});
             this.rbbgQuotationRpt.Name = "rbbgQuotationRpt";
-            this.rbbgQuotationRpt.Text = "QUOTATION ...";
+            resources.ApplyResources(this.rbbgQuotationRpt, "rbbgQuotationRpt");
             // 
             // btnEQ_QuotationRpt
             // 
@@ -770,7 +734,7 @@
             this.btnEQ_QuotationRpt.Image = global::PGS.Properties.Resources.mau_bieu_bao_cao_6;
             this.btnEQ_QuotationRpt.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEQ_QuotationRpt.Name = "btnEQ_QuotationRpt";
-            this.btnEQ_QuotationRpt.Text = "radButtonElement2";
+            resources.ApplyResources(this.btnEQ_QuotationRpt, "btnEQ_QuotationRpt");
             this.btnEQ_QuotationRpt.Click += new System.EventHandler(this.btnEQ_QuotationRpt_Click);
             // 
             // rbbgOrderRpt
@@ -778,7 +742,7 @@
             this.rbbgOrderRpt.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnEQ_OrderRpt});
             this.rbbgOrderRpt.Name = "rbbgOrderRpt";
-            this.rbbgOrderRpt.Text = "ORDER/CONTRACTS ...";
+            resources.ApplyResources(this.rbbgOrderRpt, "rbbgOrderRpt");
             // 
             // btnEQ_OrderRpt
             // 
@@ -789,7 +753,7 @@
             this.btnEQ_OrderRpt.Image = global::PGS.Properties.Resources.mau_bieu_bao_cao_1;
             this.btnEQ_OrderRpt.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnEQ_OrderRpt.Name = "btnEQ_OrderRpt";
-            this.btnEQ_OrderRpt.Text = "radButtonElement7";
+            resources.ApplyResources(this.btnEQ_OrderRpt, "btnEQ_OrderRpt");
             this.btnEQ_OrderRpt.Click += new System.EventHandler(this.btnEQ_OrderRpt_Click);
             // 
             // rbbgStoreRpt
@@ -797,7 +761,7 @@
             this.rbbgStoreRpt.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnStoreReport});
             this.rbbgStoreRpt.Name = "rbbgStoreRpt";
-            this.rbbgStoreRpt.Text = "STORE ...";
+            resources.ApplyResources(this.rbbgStoreRpt, "rbbgStoreRpt");
             // 
             // btnStoreReport
             // 
@@ -808,7 +772,7 @@
             this.btnStoreReport.Image = global::PGS.Properties.Resources.nha_cung_cap;
             this.btnStoreReport.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnStoreReport.Name = "btnStoreReport";
-            this.btnStoreReport.Text = "radButtonElement8";
+            resources.ApplyResources(this.btnStoreReport, "btnStoreReport");
             this.btnStoreReport.Click += new System.EventHandler(this.btnStoreReport_Click);
             // 
             // radButtonElement3
@@ -818,7 +782,7 @@
             this.radButtonElement3.Class = "RibbonBarButtonElement";
             this.radButtonElement3.Image = global::PGS.Properties.Resources.blue_arrow_down;
             this.radButtonElement3.Name = "radButtonElement3";
-            this.radButtonElement3.Text = "Phiếu nhập kho";
+            resources.ApplyResources(this.radButtonElement3, "radButtonElement3");
             this.radButtonElement3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             // 
             // radButtonElement4
@@ -828,12 +792,12 @@
             this.radButtonElement4.Class = "RibbonBarButtonElement";
             this.radButtonElement4.Image = global::PGS.Properties.Resources.blue_arrow_down;
             this.radButtonElement4.Name = "radButtonElement4";
-            this.radButtonElement4.Text = "Phiếu nhập kho";
+            resources.ApplyResources(this.radButtonElement4, "radButtonElement4");
             this.radButtonElement4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             // 
             // btnDanhSachHopDong
             // 
-            this.btnDanhSachHopDong.Alignment = System.Drawing.ContentAlignment.TopLeft;
+            resources.ApplyResources(this.btnDanhSachHopDong, "btnDanhSachHopDong");
             this.btnDanhSachHopDong.AutoSize = false;
             this.btnDanhSachHopDong.Bounds = new System.Drawing.Rectangle(0, 0, 87, 78);
             this.btnDanhSachHopDong.Class = "RibbonBarButtonElement";
@@ -841,22 +805,15 @@
             this.btnDanhSachHopDong.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDanhSachHopDong.MaxSize = new System.Drawing.Size(0, 18);
             this.btnDanhSachHopDong.Name = "btnDanhSachHopDong";
-            this.btnDanhSachHopDong.Padding = new System.Windows.Forms.Padding(2, 1, 2, 2);
-            this.btnDanhSachHopDong.Text = null;
             this.btnDanhSachHopDong.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnDanhSachHopDong.ZIndex = 1;
             // 
             // EQ_MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.radRibbonBarEquipment);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EQ_MainForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);

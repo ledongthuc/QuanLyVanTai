@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            /*this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.SuspendLayout();
             // 
             // crystalReportViewer1
@@ -51,12 +51,12 @@
             this.Name = "ReportViewerForm";
             this.Text = "ReportViewerForm";
             this.Load += new System.EventHandler(this.ReportViewerForm_Load);
-            this.ResumeLayout(false);
+            this.ResumeLayout(false);*/
 
         }
 
         #endregion
 
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        //private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
     }
 }

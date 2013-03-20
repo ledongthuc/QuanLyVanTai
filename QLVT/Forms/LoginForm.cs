@@ -68,5 +68,10 @@ namespace PGS.Forms
                                                 (this.Height - this.mainButtonsControl.Height) / 2);
             this.mainButtonsControl.Visible = true;
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

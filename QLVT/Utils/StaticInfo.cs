@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -50,7 +51,7 @@ namespace PGS.Utils
 
     public class Culture
     {
-        public static string VI_VN = "vi-VN";
-        public static string EN_US = "en-US";
+        public static CultureInfo VI_VN = new CultureInfo("vi-VN");
+        public static CultureInfo EN_US = new CultureInfo("en-US");
     }
 }
