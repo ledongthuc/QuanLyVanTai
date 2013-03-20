@@ -117,108 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="radbuttonMaterial.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="radbuttonMaterial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 25</value>
-  </data>
-  <data name="radbuttonMaterial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 70</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="radbuttonMaterial.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radbuttonMaterial.Text" xml:space="preserve">
-    <value>OFFICE MATERIALS MANAGEMENT</value>
-  </data>
-  <data name="radbuttonMaterial.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radbuttonMaterial.Name" xml:space="preserve">
-    <value>radbuttonMaterial</value>
-  </data>
-  <data name="&gt;&gt;radbuttonMaterial.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;radbuttonMaterial.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;radbuttonMaterial.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radbuttonCars.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="radbuttonCars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>279, 25</value>
-  </data>
-  <data name="radbuttonCars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 70</value>
-  </data>
-  <data name="radbuttonCars.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="radbuttonCars.Text" xml:space="preserve">
-    <value>CAR MANAGEMENT</value>
-  </data>
-  <data name="radbuttonCars.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;radbuttonCars.Name" xml:space="preserve">
-    <value>radbuttonCars</value>
-  </data>
-  <data name="&gt;&gt;radbuttonCars.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;radbuttonCars.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;radbuttonCars.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radbuttonEquipment.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="radbuttonEquipment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 25</value>
-  </data>
-  <data name="radbuttonEquipment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 70</value>
-  </data>
-  <data name="radbuttonEquipment.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>CAR MANAGEMENT VN</value>
   </data>
   <data name="radbuttonEquipment.Text" xml:space="preserve">
-    <value>EQUIPMENT / TOOLS / CONSUMABLES MANAGEMENT</value>
+    <value>EQUIPMENT / TOOLS / CONSUMABLES MANAGEMENT VN</value>
   </data>
-  <data name="&gt;&gt;radbuttonEquipment.Name" xml:space="preserve">
-    <value>radbuttonEquipment</value>
-  </data>
-  <data name="&gt;&gt;radbuttonEquipment.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;radbuttonEquipment.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;radbuttonEquipment.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 120</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainButtonsControl</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radbuttonMaterial.Text" xml:space="preserve">
+    <value>OFFICE MATERIALS MANAGEMENT VN</value>
   </data>
 </root>

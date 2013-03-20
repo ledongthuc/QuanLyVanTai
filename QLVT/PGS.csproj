@@ -469,6 +469,9 @@
     <EmbeddedResource Include="Controls\LoginControl.vi.resx">
       <DependentUpon>LoginControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MainButtonsControl.en-US.resx">
+      <DependentUpon>MainButtonsControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\MainButtonsControl.resx">
       <DependentUpon>MainButtonsControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -489,6 +492,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Equipments\NEQ_OutputDetailControl.resx">
       <DependentUpon>NEQ_OutputDetailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MainButtonsControl.vi-VN.resx">
+      <DependentUpon>MainButtonsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Report\EQ_EquipmentReport.resx">
       <DependentUpon>EQ_EquipmentReport.cs</DependentUpon>

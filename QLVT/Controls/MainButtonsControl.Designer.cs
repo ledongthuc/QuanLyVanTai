@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainButtonsControl));
             this.radbuttonMaterial = new Telerik.WinControls.UI.RadButton();
             this.radbuttonCars = new Telerik.WinControls.UI.RadButton();
             this.radbuttonEquipment = new Telerik.WinControls.UI.RadButton();
@@ -38,52 +39,37 @@
             // 
             // radbuttonMaterial
             // 
-            this.radbuttonMaterial.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.radbuttonMaterial.Location = new System.Drawing.Point(91, 25);
+            resources.ApplyResources(this.radbuttonMaterial, "radbuttonMaterial");
             this.radbuttonMaterial.Name = "radbuttonMaterial";
-            this.radbuttonMaterial.Size = new System.Drawing.Size(120, 70);
-            this.radbuttonMaterial.TabIndex = 0;
             this.radbuttonMaterial.Tag = "1";
-            this.radbuttonMaterial.Text = "OFFICE MATERIALS MANAGEMENT";
             this.radbuttonMaterial.TextWrap = true;
-            this.radbuttonMaterial.Visible = false;
             this.radbuttonMaterial.Click += new System.EventHandler(this.radButton_Click);
             // 
             // radbuttonCars
             // 
-            this.radbuttonCars.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.radbuttonCars.Location = new System.Drawing.Point(279, 25);
+            resources.ApplyResources(this.radbuttonCars, "radbuttonCars");
             this.radbuttonCars.Name = "radbuttonCars";
-            this.radbuttonCars.Size = new System.Drawing.Size(120, 70);
-            this.radbuttonCars.TabIndex = 1;
             this.radbuttonCars.Tag = "2";
-            this.radbuttonCars.Text = "CAR MANAGEMENT";
             this.radbuttonCars.TextWrap = true;
-            this.radbuttonCars.Visible = false;
             this.radbuttonCars.Click += new System.EventHandler(this.radButton_Click);
             // 
             // radbuttonEquipment
             // 
-            this.radbuttonEquipment.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.radbuttonEquipment.Location = new System.Drawing.Point(160, 25);
+            resources.ApplyResources(this.radbuttonEquipment, "radbuttonEquipment");
             this.radbuttonEquipment.Name = "radbuttonEquipment";
-            this.radbuttonEquipment.Size = new System.Drawing.Size(150, 70);
-            this.radbuttonEquipment.TabIndex = 2;
             this.radbuttonEquipment.Tag = "3";
-            this.radbuttonEquipment.Text = "EQUIPMENT / TOOLS / CONSUMABLES MANAGEMENT";
             this.radbuttonEquipment.TextWrap = true;
             this.radbuttonEquipment.Click += new System.EventHandler(this.radButton_Click);
             // 
             // MainButtonsControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.radbuttonCars);
             this.Controls.Add(this.radbuttonEquipment);
             this.Controls.Add(this.radbuttonMaterial);
             this.Name = "MainButtonsControl";
-            this.Size = new System.Drawing.Size(490, 120);
             ((System.ComponentModel.ISupportInitialize)(this.radbuttonMaterial)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radbuttonCars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radbuttonEquipment)).EndInit();
