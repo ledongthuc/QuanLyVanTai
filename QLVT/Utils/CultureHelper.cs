@@ -239,6 +239,27 @@ namespace PGS.Utils
                     button.ToolTipText      = (string)(GetSafeValue(resources, fieldName + ".ToolTipText", button.ToolTipText));
                     button.Visible          = (bool)(GetSafeValue(resources, fieldName + ".Visible", button.Visible));
                 }
+                if (obj is Telerik.WinControls.UI.RibbonTab)
+                {
+                    Telerik.WinControls.UI.RibbonTab tab = (Telerik.WinControls.UI.RibbonTab)obj;
+                    tab.Enabled = (bool)(GetSafeValue(resources, fieldName + ".Enabled", tab.Enabled));
+                    tab.Text = (string)(GetSafeValue(resources, fieldName + ".Text", tab.Text));
+                    tab.ToolTipText = (string)(GetSafeValue(resources, fieldName + ".ToolTipText", tab.ToolTipText));
+                }
+                if (obj is Telerik.WinControls.UI.RadRibbonBarGroup)
+                {
+                    Telerik.WinControls.UI.RadRibbonBarGroup group = (Telerik.WinControls.UI.RadRibbonBarGroup)obj;
+                    group.Enabled = (bool)(GetSafeValue(resources, fieldName + ".Enabled", group.Enabled));
+                    group.Text = (string)(GetSafeValue(resources, fieldName + ".Text", group.Text));
+                    group.ToolTipText = (string)(GetSafeValue(resources, fieldName + ".ToolTipText", group.ToolTipText));
+                }
+                if (obj is Telerik.WinControls.UI.RadButtonElement)
+                {
+                    Telerik.WinControls.UI.RadButtonElement button = (Telerik.WinControls.UI.RadButtonElement)obj;
+                    button.Enabled = (bool)(GetSafeValue(resources, fieldName + ".Enabled", button.Enabled));
+                    button.Text = (string)(GetSafeValue(resources, fieldName + ".Text", button.Text));
+                    button.ToolTipText = (string)(GetSafeValue(resources, fieldName + ".ToolTipText", button.ToolTipText));
+                }
             }
         }
 

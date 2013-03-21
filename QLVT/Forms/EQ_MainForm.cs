@@ -9,6 +9,9 @@ using System.Windows.Forms;
 using PGS.Controls;
 using PGS.Global;
 using PGS.Entity;
+using PGS.Forms;
+using PGS.Utils;
+using System.Threading;
 
 namespace PGS {
     public enum FunctionMode
@@ -24,6 +27,12 @@ namespace PGS {
         public static PGS.Entity.PGSDBEntities dbContext = new PGS.Entity.PGSDBEntities();        
 
         private FunctionMode currentFunctionMode;
+
+        protected override void OnVisibleChanged(EventArgs e)
+        {
+            base.OnVisibleChanged(e);
+            CultureSingleton.Instance.ChangeLanguage(this, Thread.CurrentThread.CurrentCulture);
+        }
 
         private FunctionMode CurrentFunctionMode
         {

@@ -117,29 +117,1823 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonTabIndex.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonTabIndex.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonTabIndex.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTabIndex.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTabIndex.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabIndex.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTabIndex.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabIndex.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="ribbonTabIndex.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonTabIndex.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonTabIndex.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonTabIndex.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroupStores.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupStores.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupStores.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStore.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnStore.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnStore.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStore.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnStore.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStore.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStore.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStore.Text" xml:space="preserve">
+    <value>STORES</value>
+  </data>
+  <data name="btnStore.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnStore.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupStores.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupStores.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupStores.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupStores.Text" xml:space="preserve">
+    <value>STORES</value>
+  </data>
+  <data name="radRibbonBarGroupStores.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnLocation.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnLocation.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnLocation.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnLocation.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnLocation.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLocation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLocation.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnLocation.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="btnLocation.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnLocation.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.Text" xml:space="preserve">
+    <value>LOCATIONS</value>
+  </data>
+  <data name="radRibbonBarGroupLocations.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSupplier_1.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnSupplier_1.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSupplier_1.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSupplier_1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnSupplier_1.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSupplier_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnSupplier_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 2</value>
+  </data>
+  <data name="btnSupplier_1.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSupplier_1.Text" xml:space="preserve">
+    <value>SUPPLIERS</value>
+  </data>
+  <data name="btnSupplier_1.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnSupplier_1.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.Text" xml:space="preserve">
+    <value>SUPPLIERS</value>
+  </data>
+  <data name="radRibbonBarGroupSuppliers.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup30.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup30.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup30.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup30.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup30.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup30.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup30.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQCategory.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEQCategory.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEQCategory.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQCategory.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEQCategory.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQCategory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQCategory.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="btnEQCategory.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEQCategory.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnEquipment.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEquipment.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEquipment.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipment.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEquipment.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEquipment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipment.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipment.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipment.Text" xml:space="preserve">
+    <value>Equipments</value>
+  </data>
+  <data name="btnEquipment.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEquipment.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.Text" xml:space="preserve">
+    <value>EQUIPMENTS</value>
+  </data>
+  <data name="radRibbonBarGroupEquipments.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnUnit_1.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnUnit_1.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnUnit_1.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnUnit_1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnUnit_1.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUnit_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnUnit_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 1, 2, 2</value>
+  </data>
+  <data name="btnUnit_1.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnUnit_1.Text" xml:space="preserve">
+    <value>UNITS</value>
+  </data>
+  <data name="btnUnit_1.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnUnit_1.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.Text" xml:space="preserve">
+    <value>UNITS</value>
+  </data>
+  <data name="radRibbonBarGroupUnits.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabIndex.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabIndex.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabIndex.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabIndex.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="ribbonTabIndex.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ribbonTabIndex.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabProcess.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTabProcess.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonTabProcess.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTabProcess.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTabProcess.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabProcess.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTabProcess.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabProcess.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="ribbonTabProcess.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabProcess.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonTabProcess.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonTabProcess.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup2.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup2.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup2.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRequest.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnRequest.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRequest.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRequest.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnRequest.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRequest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRequest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRequest.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRequest.Text" xml:space="preserve">
+    <value>Create Request</value>
+  </data>
+  <data name="btnRequest.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnRequest.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnRequestList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnRequestList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRequestList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRequestList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnRequestList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRequestList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRequestList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRequestList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRequestList.Text" xml:space="preserve">
+    <value>List of Requests</value>
+  </data>
+  <data name="btnRequestList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnRequestList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="radRibbonBarGroup2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup2.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup2.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup4.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup4.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup4.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnQuotation.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnQuotation.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnQuotation.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnQuotation.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnQuotation.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnQuotation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnQuotation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnQuotation.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnQuotation.Text" xml:space="preserve">
+    <value>Create Quotation</value>
+  </data>
+  <data name="btnQuotation.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnQuotation.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnQuotationList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnQuotationList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnQuotationList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnQuotationList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnQuotationList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnQuotationList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnQuotationList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnQuotationList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnQuotationList.Text" xml:space="preserve">
+    <value>List of Quotations</value>
+  </data>
+  <data name="btnQuotationList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnQuotationList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup4.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup4.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup11.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup11.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup11.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContract.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnContract.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnContract.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContract.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnContract.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnContract.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContract.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContract.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContract.Text" xml:space="preserve">
+    <value>Create Contract</value>
+  </data>
+  <data name="btnContract.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnContract.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnContractList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnContractList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnContractList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContractList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnContractList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnContractList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContractList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContractList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContractList.Text" xml:space="preserve">
+    <value>List of Contracts</value>
+  </data>
+  <data name="btnContractList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnContractList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup11.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup11.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup12.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup12.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup12.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOrder.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnOrder.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOrder.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOrder.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnOrder.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOrder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOrder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOrder.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOrder.Text" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="btnOrder.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOrder.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnOrderList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnOrderList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOrderList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOrderList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnOrderList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOrderList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOrderList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOrderList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOrderList.Text" xml:space="preserve">
+    <value>List Of Orders</value>
+  </data>
+  <data name="btnOrderList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOrderList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup12.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup12.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup29.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup29.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup29.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup29.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup29.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup29.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup29.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup5.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup5.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup5.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnInput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInput.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnInput.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInput.Text" xml:space="preserve">
+    <value>Create Receive Stock</value>
+  </data>
+  <data name="btnInput.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnInput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnInputList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnInputList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInputList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInputList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnInputList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInputList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInputList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInputList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInputList.Text" xml:space="preserve">
+    <value>Receive Stock List</value>
+  </data>
+  <data name="btnInputList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnInputList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup5.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup5.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup7.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup7.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup7.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOutput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnOutput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOutput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOutput.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnOutput.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOutput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOutput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOutput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOutput.Text" xml:space="preserve">
+    <value>Create Issue Stock</value>
+  </data>
+  <data name="btnOutput.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOutput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnOutputList.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnOutputList.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOutputList.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOutputList.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnOutputList.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOutputList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOutputList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnOutputList.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOutputList.Text" xml:space="preserve">
+    <value>Issue Stock List</value>
+  </data>
+  <data name="btnOutputList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOutputList.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup7.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroup7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroup7.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbbgDirectOuput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="rbbgDirectOuput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbbgDirectOuput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDirectOutput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnDirectOutput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDirectOutput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDirectOutput.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnDirectOutput.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDirectOutput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnDirectOutput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnDirectOutput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDirectOutput.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="btnDirectOutput.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnDirectOutput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbbgDirectOuput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rbbgDirectOuput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rbbgDirectOuput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbbgDirectOuput.Text" xml:space="preserve">
+    <value>Direct Issue</value>
+  </data>
+  <data name="rbbgDirectOuput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbbgInUseOuput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="rbbgInUseOuput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbbgInUseOuput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInUseOutput.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnInUseOutput.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInUseOutput.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInUseOutput.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnInUseOutput.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInUseOutput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInUseOutput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInUseOutput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInUseOutput.Text" xml:space="preserve">
+    <value>radButtonElement1</value>
+  </data>
+  <data name="btnInUseOutput.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnInUseOutput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbbgInUseOuput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rbbgInUseOuput.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rbbgInUseOuput.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbbgInUseOuput.Text" xml:space="preserve">
+    <value>"In-Use" Issue</value>
+  </data>
+  <data name="rbbgInUseOuput.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabProcess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabProcess.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabProcess.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ribbonTabProcess.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ribbonTabProcess.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabInventory.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTabInventory.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonTabInventory.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTabInventory.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTabInventory.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabInventory.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTabInventory.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabInventory.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="ribbonTabInventory.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabInventory.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonTabInventory.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonTabInventory.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroupInventory.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInventory.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnInventory.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInventory.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInventory.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnInventory.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInventory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnInventory.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInventory.Text" xml:space="preserve">
+    <value>INVENTORY</value>
+  </data>
+  <data name="btnInventory.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnInventory.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.Text" xml:space="preserve">
+    <value>INVENTORY</value>
+  </data>
+  <data name="radRibbonBarGroupInventory.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabInventory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabInventory.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabInventory.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="ribbonTabInventory.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ribbonTabInventory.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabSupport.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTabSupport.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonTabSupport.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTabSupport.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTabSupport.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSupport.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTabSupport.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabSupport.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="ribbonTabSupport.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabSupport.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonTabSupport.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonTabSupport.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroupBrowseData.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_BrowseData.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEQ_BrowseData.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEQ_BrowseData.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_BrowseData.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEQ_BrowseData.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQ_BrowseData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_BrowseData.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_BrowseData.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_BrowseData.Text" xml:space="preserve">
+    <value>BROWSE DATA</value>
+  </data>
+  <data name="btnEQ_BrowseData.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEQ_BrowseData.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.Text" xml:space="preserve">
+    <value> BROWSE DATA</value>
+  </data>
+  <data name="radRibbonBarGroupBrowseData.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipCheck.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEquipCheck.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEquipCheck.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipCheck.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEquipCheck.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEquipCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipCheck.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipCheck.Text" xml:space="preserve">
+    <value>Equipment Check</value>
+  </data>
+  <data name="btnEquipCheck.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEquipCheck.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.Text" xml:space="preserve">
+    <value> EQUIPMENT CHECK</value>
+  </data>
+  <data name="radRibbonBarGroupEquipmentCheck.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabSupport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabSupport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabSupport.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabSupport.Text" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="ribbonTabSupport.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ribbonTabSupport.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabReport.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="ribbonTabReport.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonTabReport.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="ribbonTabReport.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonTabReport.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabReport.ContentPanel.Name" xml:space="preserve">
+    <value>ribbonTabReport.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabReport.ContentPanel.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="ribbonTabReport.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabReport.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonTabReport.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonTabReport.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipmentReport.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEquipmentReport.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEquipmentReport.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipmentReport.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEquipmentReport.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEquipmentReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipmentReport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEquipmentReport.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEquipmentReport.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEquipmentReport.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEquipmentReport.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.Text" xml:space="preserve">
+    <value>EQUIPMENT ...</value>
+  </data>
+  <data name="radRibbonBarGroupReportEquipment.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_RequestRpt.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEQ_RequestRpt.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEQ_RequestRpt.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_RequestRpt.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEQ_RequestRpt.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQ_RequestRpt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_RequestRpt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_RequestRpt.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_RequestRpt.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQ_RequestRpt.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEQ_RequestRpt.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.Text" xml:space="preserve">
+    <value>REQUESTS ...</value>
+  </data>
+  <data name="radRibbonBarGroupReportRequest.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQ_QuotationRpt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.Text" xml:space="preserve">
+    <value>radButtonElement2</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEQ_QuotationRpt.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.Text" xml:space="preserve">
+    <value>QUOTATION ...</value>
+  </data>
+  <data name="radRibbonBarGroupReportQuotation.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_OrderRpt.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnEQ_OrderRpt.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEQ_OrderRpt.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_OrderRpt.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnEQ_OrderRpt.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEQ_OrderRpt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_OrderRpt.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEQ_OrderRpt.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEQ_OrderRpt.Text" xml:space="preserve">
+    <value>radButtonElement7</value>
+  </data>
+  <data name="btnEQ_OrderRpt.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnEQ_OrderRpt.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.Text" xml:space="preserve">
+    <value>ORDER/CONTRACTS ...</value>
+  </data>
+  <data name="radRibbonBarGroupReportOrder.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStoreReport.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnStoreReport.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnStoreReport.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStoreReport.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnStoreReport.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStoreReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStoreReport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStoreReport.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStoreReport.Text" xml:space="preserve">
+    <value>radButtonElement8</value>
+  </data>
+  <data name="btnStoreReport.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnStoreReport.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.Text" xml:space="preserve">
+    <value>STORE ...</value>
+  </data>
+  <data name="radRibbonBarGroupReportStore.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ribbonTabReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabReport.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ribbonTabReport.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonTabReport.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ribbonTabReport.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ribbonTabReport.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup1.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup1.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup1.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radRibbonBarGroup1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup1.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="radRibbonBarGroup1.Text" xml:space="preserve">
     <value />
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radRibbonBarGroup1.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
   <data name="mainPanel.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="languageControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="languageControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="languageControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 47</value>
+  </data>
+  <data name="languageControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Name" xml:space="preserve">
+    <value>languageControl1</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Type" xml:space="preserve">
+    <value>PGS.Controls.LanguageControl, QLVT, Version=2010.2.914.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;languageControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 164</value>
+    <value>0, 160</value>
   </data>
   <data name="mainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="mainPanel.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="mainPanel.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainPanel.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mainPanel.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mainPanel.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mainPanel.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="mainPanel.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 566</value>
+    <value>1008, 570</value>
   </data>
   <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -156,299 +1950,59 @@
   <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="radRibbonBarGroup26.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup26.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup26.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radRibbonBarGroup26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup26.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup26.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="radRibbonBarGroup26.Text" xml:space="preserve">
     <value />
   </data>
+  <data name="radRibbonBarGroup26.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radRibbonBarGroup27.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarGroup27.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarGroup27.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radRibbonBarGroup27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="radRibbonBarGroup27.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarGroup27.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radRibbonBarGroup27.Text" xml:space="preserve">
     <value />
+  </data>
+  <data name="radRibbonBarGroup27.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <data name="radRibbonBarEquipment.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="radRibbonBarEquipment.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="ribbonTab2.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="ribbonTab2.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="ribbonTab2.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ribbonTab2.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab2.ContentPanel.Name" xml:space="preserve">
-    <value>ribbonTab2.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab2.ContentPanel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="btnStore.Text" xml:space="preserve">
-    <value>STORES</value>
-  </data>
-  <data name="radRibbonBarGroup20.Text" xml:space="preserve">
-    <value>STORES</value>
-  </data>
-  <data name="btnLocation.Text" xml:space="preserve">
-    <value>radButtonElement1</value>
-  </data>
-  <data name="radRibbonBarGroup39.Text" xml:space="preserve">
-    <value>LOCATIONS</value>
-  </data>
-  <data name="btnSupplier_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 1, 2, 2</value>
-  </data>
-  <data name="btnSupplier_1.Text" xml:space="preserve">
-    <value>SUPPLIERS</value>
-  </data>
-  <data name="radRibbonBarGroup17.Text" xml:space="preserve">
-    <value>SUPPLIERS</value>
-  </data>
-  <data name="radRibbonBarGroup30.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnEQCategory.Text" xml:space="preserve">
-    <value>Category</value>
-  </data>
-  <data name="btnEquipment.Text" xml:space="preserve">
-    <value>Equipments</value>
-  </data>
-  <data name="radRibbonBarGroup19.Text" xml:space="preserve">
-    <value>EQUIPMENTS</value>
-  </data>
-  <data name="btnUnit_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 1, 2, 2</value>
-  </data>
-  <data name="btnUnit_1.Text" xml:space="preserve">
-    <value>UNITS</value>
-  </data>
-  <data name="radRibbonBarGroup18.Text" xml:space="preserve">
-    <value>UNITS</value>
-  </data>
-  <data name="ribbonTab2.Text" xml:space="preserve">
-    <value>Index</value>
-  </data>
-  <data name="ribbonTab1.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="ribbonTab1.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="ribbonTab1.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ribbonTab1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab1.ContentPanel.Name" xml:space="preserve">
-    <value>ribbonTab1.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab1.ContentPanel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="btnPhieuYeuCau.Text" xml:space="preserve">
-    <value>Create Request</value>
-  </data>
-  <data name="btnDanhsachyeucau.Text" xml:space="preserve">
-    <value>List of Requests</value>
-  </data>
-  <data name="radRibbonBarGroup2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="radRibbonBarGroup2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radRibbonBarGroup2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnPhieuMoiChaoGia.Text" xml:space="preserve">
-    <value>Create Quotation</value>
-  </data>
-  <data name="btnDanhSachMoiChaoGia.Text" xml:space="preserve">
-    <value>List of Quotations</value>
-  </data>
-  <data name="radRibbonBarGroup4.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnContract.Text" xml:space="preserve">
-    <value>Create Contract</value>
-  </data>
-  <data name="btnContractList.Text" xml:space="preserve">
-    <value>List of Contracts</value>
-  </data>
-  <data name="radRibbonBarGroup11.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnOrder.Text" xml:space="preserve">
-    <value>Create Order</value>
-  </data>
-  <data name="btnOrder.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="btnOrderList.Text" xml:space="preserve">
-    <value>List Of Orders</value>
-  </data>
-  <data name="btnOrderList.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="radRibbonBarGroup12.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="radRibbonBarGroup29.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnInput.Text" xml:space="preserve">
-    <value>Create Receive Stock</value>
-  </data>
-  <data name="btnInputList.Text" xml:space="preserve">
-    <value>Receive Stock List</value>
-  </data>
-  <data name="radRibbonBarGroup5.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnOutput.Text" xml:space="preserve">
-    <value>Create Issue Stock</value>
-  </data>
-  <data name="btnOutputList.Text" xml:space="preserve">
-    <value>Issue Stock List</value>
-  </data>
-  <data name="radRibbonBarGroup7.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnDirectOutput.Text" xml:space="preserve">
-    <value>radButtonElement1</value>
-  </data>
-  <data name="rbbgDirectOuput.Text" xml:space="preserve">
-    <value>Direct Issue</value>
-  </data>
-  <data name="btnInUseOutput.Text" xml:space="preserve">
-    <value>radButtonElement1</value>
-  </data>
-  <data name="rbbgInUseOuput.Text" xml:space="preserve">
-    <value>"In-Use" Issue</value>
-  </data>
-  <data name="ribbonTab1.Text" xml:space="preserve">
-    <value>Process</value>
-  </data>
-  <data name="ribbonTab9.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="ribbonTab9.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="ribbonTab9.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ribbonTab9.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab9.ContentPanel.Name" xml:space="preserve">
-    <value>ribbonTab9.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab9.ContentPanel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="btnInventory.Text" xml:space="preserve">
-    <value>INVENTORY</value>
-  </data>
-  <data name="radRibbonBarGroup35.Text" xml:space="preserve">
-    <value>INVENTORY</value>
-  </data>
-  <data name="ribbonTab9.Text" xml:space="preserve">
-    <value>Inventory</value>
-  </data>
-  <data name="ribbonTab10.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="ribbonTab10.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="ribbonTab10.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ribbonTab10.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab10.ContentPanel.Name" xml:space="preserve">
-    <value>ribbonTab10.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab10.ContentPanel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="btnEQ_BrowseData.Text" xml:space="preserve">
-    <value>BROWSE DATA</value>
-  </data>
-  <data name="radRibbonBarGroup37.Text" xml:space="preserve">
-    <value> BROWSE DATA</value>
-  </data>
-  <data name="btnEquipCheck.Text" xml:space="preserve">
-    <value>Equipment Check</value>
-  </data>
-  <data name="radRibbonBarGroup38.Text" xml:space="preserve">
-    <value> EQUIPMENT CHECK</value>
-  </data>
-  <data name="ribbonTab10.Text" xml:space="preserve">
-    <value>Support</value>
-  </data>
-  <data name="ribbonTab11.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomLeft</value>
-  </data>
-  <data name="ribbonTab11.ContentPanel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="ribbonTab11.ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ribbonTab11.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab11.ContentPanel.Name" xml:space="preserve">
-    <value>ribbonTab11.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab11.ContentPanel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTabStripContentPanel, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="btnEquipmentReport.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="radRibbonBarGroup36.Text" xml:space="preserve">
-    <value>EQUIPMENT ...</value>
-  </data>
-  <data name="btnEQ_RequestRpt.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="radRibbonBarGroup42.Text" xml:space="preserve">
-    <value>REQUESTS ...</value>
-  </data>
-  <data name="btnEQ_QuotationRpt.Text" xml:space="preserve">
-    <value>radButtonElement2</value>
-  </data>
-  <data name="rbbgQuotationRpt.Text" xml:space="preserve">
-    <value>QUOTATION ...</value>
-  </data>
-  <data name="btnEQ_OrderRpt.Text" xml:space="preserve">
-    <value>radButtonElement7</value>
-  </data>
-  <data name="rbbgOrderRpt.Text" xml:space="preserve">
-    <value>ORDER/CONTRACTS ...</value>
-  </data>
-  <data name="btnStoreReport.Text" xml:space="preserve">
-    <value>radButtonElement8</value>
-  </data>
-  <data name="rbbgStoreRpt.Text" xml:space="preserve">
-    <value>STORE ...</value>
-  </data>
-  <data name="ribbonTab11.Text" xml:space="preserve">
-    <value>Report</value>
   </data>
   <data name="radRibbonBarEquipment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -465,8 +2019,29 @@
   <data name="radRibbonBarEquipment.OptionsButton.Text" xml:space="preserve">
     <value>Options</value>
   </data>
+  <data name="radRibbonBarEquipment.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radRibbonBarEquipment.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
   <data name="radRibbonBarEquipment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 164</value>
+    <value>1008, 160</value>
   </data>
   <data name="radRibbonBarEquipment.StartButtonImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -514,20 +2089,104 @@
   <data name="&gt;&gt;radRibbonBarEquipment.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="radButtonElement3.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radButtonElement3.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radButtonElement3.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonElement3.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radButtonElement3.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radButtonElement3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radButtonElement3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radButtonElement3.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radButtonElement3.Text" xml:space="preserve">
     <value>Phiếu nhập kho</value>
+  </data>
+  <data name="radButtonElement3.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="radButtonElement3.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="radButtonElement4.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radButtonElement4.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radButtonElement4.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radButtonElement4.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="radButtonElement4.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radButtonElement4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radButtonElement4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="radButtonElement4.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="radButtonElement4.Text" xml:space="preserve">
     <value>Phiếu nhập kho</value>
   </data>
+  <data name="radButtonElement4.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="radButtonElement4.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
   <data name="btnDanhSachHopDong.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
+  </data>
+  <data name="btnDanhSachHopDong.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDanhSachHopDong.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDanhSachHopDong.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="btnDanhSachHopDong.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDanhSachHopDong.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="btnDanhSachHopDong.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 1, 2, 2</value>
   </data>
+  <data name="btnDanhSachHopDong.RightToLeft" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="btnDanhSachHopDong.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="btnDanhSachHopDong.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnDanhSachHopDong.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2575,34 +4234,16 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup1.Name" xml:space="preserve">
-    <value>radRibbonBarGroup1</value>
+  <data name="&gt;&gt;ribbonTabIndex.Name" xml:space="preserve">
+    <value>ribbonTabIndex</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;radRibbonBarGroup26.Name" xml:space="preserve">
-    <value>radRibbonBarGroup26</value>
-  </data>
-  <data name="&gt;&gt;radRibbonBarGroup26.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;radRibbonBarGroup27.Name" xml:space="preserve">
-    <value>radRibbonBarGroup27</value>
-  </data>
-  <data name="&gt;&gt;radRibbonBarGroup27.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab2.Name" xml:space="preserve">
-    <value>ribbonTab2</value>
-  </data>
-  <data name="&gt;&gt;ribbonTab2.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonTabIndex.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup20.Name" xml:space="preserve">
-    <value>radRibbonBarGroup20</value>
+  <data name="&gt;&gt;radRibbonBarGroupStores.Name" xml:space="preserve">
+    <value>radRibbonBarGroupStores</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup20.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupStores.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnStore.Name" xml:space="preserve">
@@ -2611,10 +4252,10 @@
   <data name="&gt;&gt;btnStore.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup39.Name" xml:space="preserve">
-    <value>radRibbonBarGroup39</value>
+  <data name="&gt;&gt;radRibbonBarGroupLocations.Name" xml:space="preserve">
+    <value>radRibbonBarGroupLocations</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup39.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupLocations.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnLocation.Name" xml:space="preserve">
@@ -2623,10 +4264,10 @@
   <data name="&gt;&gt;btnLocation.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup17.Name" xml:space="preserve">
-    <value>radRibbonBarGroup17</value>
+  <data name="&gt;&gt;radRibbonBarGroupSuppliers.Name" xml:space="preserve">
+    <value>radRibbonBarGroupSuppliers</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup17.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupSuppliers.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnSupplier_1.Name" xml:space="preserve">
@@ -2641,10 +4282,10 @@
   <data name="&gt;&gt;radRibbonBarGroup30.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup19.Name" xml:space="preserve">
-    <value>radRibbonBarGroup19</value>
+  <data name="&gt;&gt;radRibbonBarGroupEquipments.Name" xml:space="preserve">
+    <value>radRibbonBarGroupEquipments</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup19.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupEquipments.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEQCategory.Name" xml:space="preserve">
@@ -2659,10 +4300,10 @@
   <data name="&gt;&gt;btnEquipment.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup18.Name" xml:space="preserve">
-    <value>radRibbonBarGroup18</value>
+  <data name="&gt;&gt;radRibbonBarGroupUnits.Name" xml:space="preserve">
+    <value>radRibbonBarGroupUnits</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup18.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupUnits.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnUnit_1.Name" xml:space="preserve">
@@ -2671,10 +4312,10 @@
   <data name="&gt;&gt;btnUnit_1.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;ribbonTab1.Name" xml:space="preserve">
-    <value>ribbonTab1</value>
+  <data name="&gt;&gt;ribbonTabProcess.Name" xml:space="preserve">
+    <value>ribbonTabProcess</value>
   </data>
-  <data name="&gt;&gt;ribbonTab1.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonTabProcess.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radRibbonBarGroup2.Name" xml:space="preserve">
@@ -2683,16 +4324,16 @@
   <data name="&gt;&gt;radRibbonBarGroup2.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;btnPhieuYeuCau.Name" xml:space="preserve">
-    <value>btnPhieuYeuCau</value>
+  <data name="&gt;&gt;btnRequest.Name" xml:space="preserve">
+    <value>btnRequest</value>
   </data>
-  <data name="&gt;&gt;btnPhieuYeuCau.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnRequest.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;btnDanhsachyeucau.Name" xml:space="preserve">
-    <value>btnDanhsachyeucau</value>
+  <data name="&gt;&gt;btnRequestList.Name" xml:space="preserve">
+    <value>btnRequestList</value>
   </data>
-  <data name="&gt;&gt;btnDanhsachyeucau.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnRequestList.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radRibbonBarGroup4.Name" xml:space="preserve">
@@ -2701,16 +4342,16 @@
   <data name="&gt;&gt;radRibbonBarGroup4.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;btnPhieuMoiChaoGia.Name" xml:space="preserve">
-    <value>btnPhieuMoiChaoGia</value>
+  <data name="&gt;&gt;btnQuotation.Name" xml:space="preserve">
+    <value>btnQuotation</value>
   </data>
-  <data name="&gt;&gt;btnPhieuMoiChaoGia.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnQuotation.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;btnDanhSachMoiChaoGia.Name" xml:space="preserve">
-    <value>btnDanhSachMoiChaoGia</value>
+  <data name="&gt;&gt;btnQuotationList.Name" xml:space="preserve">
+    <value>btnQuotationList</value>
   </data>
-  <data name="&gt;&gt;btnDanhSachMoiChaoGia.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnQuotationList.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radRibbonBarGroup11.Name" xml:space="preserve">
@@ -2815,16 +4456,16 @@
   <data name="&gt;&gt;btnInUseOutput.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;ribbonTab9.Name" xml:space="preserve">
-    <value>ribbonTab9</value>
+  <data name="&gt;&gt;ribbonTabInventory.Name" xml:space="preserve">
+    <value>ribbonTabInventory</value>
   </data>
-  <data name="&gt;&gt;ribbonTab9.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonTabInventory.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup35.Name" xml:space="preserve">
-    <value>radRibbonBarGroup35</value>
+  <data name="&gt;&gt;radRibbonBarGroupInventory.Name" xml:space="preserve">
+    <value>radRibbonBarGroupInventory</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup35.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupInventory.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnInventory.Name" xml:space="preserve">
@@ -2833,16 +4474,16 @@
   <data name="&gt;&gt;btnInventory.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;ribbonTab10.Name" xml:space="preserve">
-    <value>ribbonTab10</value>
+  <data name="&gt;&gt;ribbonTabSupport.Name" xml:space="preserve">
+    <value>ribbonTabSupport</value>
   </data>
-  <data name="&gt;&gt;ribbonTab10.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonTabSupport.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup37.Name" xml:space="preserve">
-    <value>radRibbonBarGroup37</value>
+  <data name="&gt;&gt;radRibbonBarGroupBrowseData.Name" xml:space="preserve">
+    <value>radRibbonBarGroupBrowseData</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup37.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupBrowseData.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEQ_BrowseData.Name" xml:space="preserve">
@@ -2851,10 +4492,10 @@
   <data name="&gt;&gt;btnEQ_BrowseData.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup38.Name" xml:space="preserve">
-    <value>radRibbonBarGroup38</value>
+  <data name="&gt;&gt;radRibbonBarGroupEquipmentCheck.Name" xml:space="preserve">
+    <value>radRibbonBarGroupEquipmentCheck</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup38.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupEquipmentCheck.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEquipCheck.Name" xml:space="preserve">
@@ -2863,16 +4504,16 @@
   <data name="&gt;&gt;btnEquipCheck.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;ribbonTab11.Name" xml:space="preserve">
-    <value>ribbonTab11</value>
+  <data name="&gt;&gt;ribbonTabReport.Name" xml:space="preserve">
+    <value>ribbonTabReport</value>
   </data>
-  <data name="&gt;&gt;ribbonTab11.Type" xml:space="preserve">
+  <data name="&gt;&gt;ribbonTabReport.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RibbonTab, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup36.Name" xml:space="preserve">
-    <value>radRibbonBarGroup36</value>
+  <data name="&gt;&gt;radRibbonBarGroupReportEquipment.Name" xml:space="preserve">
+    <value>radRibbonBarGroupReportEquipment</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup36.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupReportEquipment.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEquipmentReport.Name" xml:space="preserve">
@@ -2881,10 +4522,10 @@
   <data name="&gt;&gt;btnEquipmentReport.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup42.Name" xml:space="preserve">
-    <value>radRibbonBarGroup42</value>
+  <data name="&gt;&gt;radRibbonBarGroupReportRequest.Name" xml:space="preserve">
+    <value>radRibbonBarGroupReportRequest</value>
   </data>
-  <data name="&gt;&gt;radRibbonBarGroup42.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupReportRequest.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEQ_RequestRpt.Name" xml:space="preserve">
@@ -2893,10 +4534,10 @@
   <data name="&gt;&gt;btnEQ_RequestRpt.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;rbbgQuotationRpt.Name" xml:space="preserve">
-    <value>rbbgQuotationRpt</value>
+  <data name="&gt;&gt;radRibbonBarGroupReportQuotation.Name" xml:space="preserve">
+    <value>radRibbonBarGroupReportQuotation</value>
   </data>
-  <data name="&gt;&gt;rbbgQuotationRpt.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupReportQuotation.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEQ_QuotationRpt.Name" xml:space="preserve">
@@ -2905,10 +4546,10 @@
   <data name="&gt;&gt;btnEQ_QuotationRpt.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;rbbgOrderRpt.Name" xml:space="preserve">
-    <value>rbbgOrderRpt</value>
+  <data name="&gt;&gt;radRibbonBarGroupReportOrder.Name" xml:space="preserve">
+    <value>radRibbonBarGroupReportOrder</value>
   </data>
-  <data name="&gt;&gt;rbbgOrderRpt.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupReportOrder.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnEQ_OrderRpt.Name" xml:space="preserve">
@@ -2917,10 +4558,10 @@
   <data name="&gt;&gt;btnEQ_OrderRpt.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;rbbgStoreRpt.Name" xml:space="preserve">
-    <value>rbbgStoreRpt</value>
+  <data name="&gt;&gt;radRibbonBarGroupReportStore.Name" xml:space="preserve">
+    <value>radRibbonBarGroupReportStore</value>
   </data>
-  <data name="&gt;&gt;rbbgStoreRpt.Type" xml:space="preserve">
+  <data name="&gt;&gt;radRibbonBarGroupReportStore.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnStoreReport.Name" xml:space="preserve">
@@ -2928,6 +4569,24 @@
   </data>
   <data name="&gt;&gt;btnStoreReport.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadButtonElement, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup1.Name" xml:space="preserve">
+    <value>radRibbonBarGroup1</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup1.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup26.Name" xml:space="preserve">
+    <value>radRibbonBarGroup26</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup26.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup27.Name" xml:space="preserve">
+    <value>radRibbonBarGroup27</value>
+  </data>
+  <data name="&gt;&gt;radRibbonBarGroup27.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRibbonBarGroup, Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radButtonElement3.Name" xml:space="preserve">
     <value>radButtonElement3</value>
