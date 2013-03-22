@@ -56,6 +56,8 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="QuickStart, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="RadControlSpy, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -75,6 +77,16 @@
     <Reference Include="Telerik.WinControls.GridView, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.RadDock, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Scheduler, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.BreezeExtended, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Telerik, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Vista, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
     <Reference Include="Telerik.WinControls.UI, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="TelerikCommon, Version=2010.2.10.914, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
   </ItemGroup>
@@ -378,6 +390,12 @@
     </Compile>
     <EmbeddedResource Include="Controls\Custom ComboBox\RequestListBox.resx">
       <DependentUpon>RequestListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEquipmentList.en-US.resx">
+      <DependentUpon>NEquipmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Equipments\NEquipmentList.vi-VN.resx">
+      <DependentUpon>NEquipmentList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Equipments\NStoreLocationList.resx">
       <DependentUpon>NStoreLocationList.cs</DependentUpon>

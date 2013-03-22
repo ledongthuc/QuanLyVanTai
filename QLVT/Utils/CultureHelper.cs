@@ -260,6 +260,21 @@ namespace PGS.Utils
                     button.Text = (string)(GetSafeValue(resources, fieldName + ".Text", button.Text));
                     button.ToolTipText = (string)(GetSafeValue(resources, fieldName + ".ToolTipText", button.ToolTipText));
                 }
+               
+                if (obj is Telerik.WinControls.UI.RadGridView)
+                {
+                    Telerik.WinControls.UI.RadGridView gridview = (Telerik.WinControls.UI.RadGridView)obj;
+                    if (gridview.ColumnCount == 0)
+                    {
+                        return;
+                    }
+
+                    foreach (Telerik.WinControls.UI.GridViewColumn column in gridview.Columns)
+                    {
+                        // Resource key: GridViewID.ColumnId.HeaderText
+                        column.HeaderText = (string)(GetSafeValue(resources, fieldName + "." + column.Name + ".HeaderText", column.HeaderText));
+                    }
+                }
             }
         }
 
