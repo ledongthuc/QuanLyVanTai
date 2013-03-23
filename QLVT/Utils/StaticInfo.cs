@@ -54,4 +54,12 @@ namespace PGS.Utils
         public static CultureInfo VI_VN = new CultureInfo("vi-VN");
         public static CultureInfo EN_US = new CultureInfo("en-US");
     }
+
+    public enum ActionStatus : byte
+    {
+        NONE,
+        NEW,
+        UPDATE,
+        DELETE,
+    }
 }
